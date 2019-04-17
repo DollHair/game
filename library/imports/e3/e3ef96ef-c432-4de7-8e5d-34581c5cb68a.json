@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "餐桌",
+    "texture": "f1d9d358-14f4-4e40-8a94-99752249dd43",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1200,
+      437
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1200,
+      437
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

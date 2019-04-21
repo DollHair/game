@@ -11,13 +11,7 @@
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
-
-    @property(cc.Label)
-    label: cc.Label = null;
-
-    @property
-    text: string = 'hello';
+export default class MainController extends cc.Component {
 
     @property(cc.Node)
     view1s: cc.Node = null;
@@ -42,7 +36,7 @@ export default class NewClass extends cc.Component {
     }
 
     on_start_buttonclick(){
-        cc.director.loadScene("version1");
+        cc.director.loadScene("gaming");
     }
     
     on_view1_buttonclick(){

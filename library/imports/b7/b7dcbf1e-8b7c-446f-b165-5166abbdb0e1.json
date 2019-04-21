@@ -7,7 +7,7 @@
     "scene": {
       "__id__": 1
     },
-    "asyncLoadAssets": true
+    "asyncLoadAssets": false
   },
   {
     "__type__": "cc.Scene",
@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.4093154549534407,
-      "y": 0.4093154549534407,
+      "x": 0.3799869791666667,
+      "y": 0.3799869791666667,
       "z": 1
     },
     "_quat": {

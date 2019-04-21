@@ -13,12 +13,10 @@ cc._RF.push(module, '2c387AInpxBEbKxRgeJ3mgB', 'maincontroller');
 //  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var NewClass = /** @class */ (function (_super) {
-    __extends(NewClass, _super);
-    function NewClass() {
+var MainController = /** @class */ (function (_super) {
+    __extends(MainController, _super);
+    function MainController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.label = null;
-        _this.text = 'hello';
         _this.view1s = null;
         _this.view2s = null;
         _this.view3s = null;
@@ -26,56 +24,50 @@ var NewClass = /** @class */ (function (_super) {
         // update (dt) {}
     }
     // LIFE-CYCLE CALLBACKS:
-    NewClass.prototype.onLoad = function () {
+    MainController.prototype.onLoad = function () {
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = false;
     };
-    NewClass.prototype.start = function () {
+    MainController.prototype.start = function () {
     };
-    NewClass.prototype.on_start_buttonclick = function () {
-        cc.director.loadScene("version1");
+    MainController.prototype.on_start_buttonclick = function () {
+        cc.director.loadScene("gaming");
     };
-    NewClass.prototype.on_view1_buttonclick = function () {
+    MainController.prototype.on_view1_buttonclick = function () {
         this.view1s.active = true;
         this.view2s.active = false;
         this.view3s.active = false;
     };
-    NewClass.prototype.on_view2_buttonclick = function () {
+    MainController.prototype.on_view2_buttonclick = function () {
         this.view1s.active = false;
         this.view2s.active = true;
         this.view3s.active = false;
     };
-    NewClass.prototype.on_view3_buttonclick = function () {
+    MainController.prototype.on_view3_buttonclick = function () {
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = true;
     };
-    NewClass.prototype.on_back_buttonclick = function () {
+    MainController.prototype.on_back_buttonclick = function () {
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = false;
     };
     __decorate([
-        property(cc.Label)
-    ], NewClass.prototype, "label", void 0);
-    __decorate([
-        property
-    ], NewClass.prototype, "text", void 0);
+        property(cc.Node)
+    ], MainController.prototype, "view1s", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "view1s", void 0);
+    ], MainController.prototype, "view2s", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "view2s", void 0);
-    __decorate([
-        property(cc.Node)
-    ], NewClass.prototype, "view3s", void 0);
-    NewClass = __decorate([
+    ], MainController.prototype, "view3s", void 0);
+    MainController = __decorate([
         ccclass
-    ], NewClass);
-    return NewClass;
+    ], MainController);
+    return MainController;
 }(cc.Component));
-exports.default = NewClass;
+exports.default = MainController;
 
 cc._RF.pop();

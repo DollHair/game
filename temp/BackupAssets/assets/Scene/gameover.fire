@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.37971354166666665,
-      "y": 0.37971354166666665,
+      "x": 0.3799869791666667,
+      "y": 0.3799869791666667,
       "z": 1
     },
     "_quat": {
@@ -339,7 +339,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 605.66,
-      "height": 80
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -387,7 +387,7 @@
     "_string": "GAME OVER",
     "_N$string": "GAME OVER",
     "_fontSize": 100,
-    "_lineHeight": 80,
+    "_lineHeight": 100,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

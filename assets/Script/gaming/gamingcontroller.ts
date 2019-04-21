@@ -11,13 +11,7 @@
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
-
-    @property(cc.Label)
-    label: cc.Label = null;
-
-    @property
-    text: string = 'hello';
+export default class GamingController extends cc.Component {
 
     @property(cc.Sprite)
     cm: cc.Sprite = null;
@@ -57,12 +51,10 @@ export default class NewClass extends cc.Component {
     // onLoad () {}
 
     start () {
-        if (this.flag == 1){
-            this.gameover();
-        }
+
     }
 
-     update (dt:number) {
+    update (dt:number) {
         let timeTmp = this.time + dt;
         this.time = timeTmp;
 

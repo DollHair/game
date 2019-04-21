@@ -13,12 +13,10 @@ cc._RF.push(module, '6092ehIxndABpQQPCgsZDhC', 'gamingcontroller', __filename);
 //  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var NewClass = /** @class */ (function (_super) {
-    __extends(NewClass, _super);
-    function NewClass() {
+var GamingController = /** @class */ (function (_super) {
+    __extends(GamingController, _super);
+    function GamingController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.label = null;
-        _this.text = 'hello';
         _this.cm = null;
         _this.bd = null;
         _this.ttq = null;
@@ -34,12 +32,9 @@ var NewClass = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
-    NewClass.prototype.start = function () {
-        if (this.flag == 1) {
-            this.gameover();
-        }
+    GamingController.prototype.start = function () {
     };
-    NewClass.prototype.update = function (dt) {
+    GamingController.prototype.update = function (dt) {
         var timeTmp = this.time + dt;
         this.time = timeTmp;
         this.move(this.cm1);
@@ -79,58 +74,52 @@ var NewClass = /** @class */ (function (_super) {
             this.beg1.x = -887;
         }*/
     };
-    NewClass.prototype.move = function (wuti) {
+    GamingController.prototype.move = function (wuti) {
         var wutiX = wuti.x;
         wuti.x = wutiX + 5;
         if (wuti.x > 687) {
             wuti.x = -887;
         }
     };
-    NewClass.prototype.onbutton = function () {
+    GamingController.prototype.onbutton = function () {
         this.flag = 1;
     };
-    NewClass.prototype.gameover = function () {
+    GamingController.prototype.gameover = function () {
         cc.director.loadScene("gameover");
     };
     __decorate([
-        property(cc.Label)
-    ], NewClass.prototype, "label", void 0);
-    __decorate([
-        property
-    ], NewClass.prototype, "text", void 0);
+        property(cc.Sprite)
+    ], GamingController.prototype, "cm", void 0);
     __decorate([
         property(cc.Sprite)
-    ], NewClass.prototype, "cm", void 0);
+    ], GamingController.prototype, "bd", void 0);
     __decorate([
         property(cc.Sprite)
-    ], NewClass.prototype, "bd", void 0);
+    ], GamingController.prototype, "ttq", void 0);
     __decorate([
         property(cc.Sprite)
-    ], NewClass.prototype, "ttq", void 0);
-    __decorate([
-        property(cc.Sprite)
-    ], NewClass.prototype, "beg", void 0);
+    ], GamingController.prototype, "beg", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "cm1", void 0);
+    ], GamingController.prototype, "cm1", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "bd1", void 0);
+    ], GamingController.prototype, "bd1", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "ttq1", void 0);
+    ], GamingController.prototype, "ttq1", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "beg1", void 0);
+    ], GamingController.prototype, "beg1", void 0);
     __decorate([
         property(cc.Node)
-    ], NewClass.prototype, "bg", void 0);
-    NewClass = __decorate([
+    ], GamingController.prototype, "bg", void 0);
+    GamingController = __decorate([
         ccclass
-    ], NewClass);
-    return NewClass;
+    ], GamingController);
+    return GamingController;
 }(cc.Component));
-exports.default = NewClass;
+exports.default = GamingController;
 
 cc._RF.pop();
         }

@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '6092ehIxndABpQQPCgsZDhC', 'gundong');
-// Script/gundong.ts
+cc._RF.push(module, '6092ehIxndABpQQPCgsZDhC', 'gamingcontroller');
+// Script/gaming/gamingcontroller.ts
 
 // Learn TypeScript:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/typescript.html
@@ -35,41 +35,62 @@ var NewClass = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
     NewClass.prototype.start = function () {
+        if (this.flag == 1) {
+            this.gameover();
+        }
     };
     NewClass.prototype.update = function (dt) {
         var timeTmp = this.time + dt;
         this.time = timeTmp;
+        this.move(this.cm1);
+        this.move(this.bd1);
+        this.move(this.ttq1);
+        this.move(this.beg1);
         if (this.flag == 1) {
-            var cmX = this.cm1.x;
-            this.cm1.x = cmX;
+            this.gameover();
         }
-        else {
-            var cmX = this.cm1.x;
+        /*
+        else{
+            let cmX = this.cm1.x;
             this.cm1.x = cmX + 5;
         }
-        var bdX = this.bd1.x;
+        let bdX = this.bd1.x;
         this.bd1.x = bdX + 5;
-        var ttqX = this.ttq1.x;
+
+        let ttqX = this.ttq1.x;
         this.ttq1.x = ttqX + 5;
-        var begX = this.beg1.x;
+
+        let begX = this.beg1.x;
         this.beg1.x = begX + 5;
-        if (this.cm1.x > 687) {
+        
+        if (this.cm1.x > 687){
             this.cm1.x = -887;
         }
-        if (this.bd1.x > 687) {
+        
+        if (this.bd1.x > 687){
             this.bd1.x = -887;
         }
-        if (this.ttq1.x > 687) {
+        
+        if (this.ttq1.x > 687){
             this.ttq1.x = -887;
         }
-        if (this.beg1.x > 687) {
+        
+        if (this.beg1.x > 687){
             this.beg1.x = -887;
+        }*/
+    };
+    NewClass.prototype.move = function (wuti) {
+        var wutiX = wuti.x;
+        wuti.x = wutiX + 5;
+        if (wuti.x > 687) {
+            wuti.x = -887;
         }
     };
     NewClass.prototype.onbutton = function () {
-        this.cm1.x = 29;
-        this.cm1.y = -113;
         this.flag = 1;
+    };
+    NewClass.prototype.gameover = function () {
+        cc.director.loadScene("gameover");
     };
     __decorate([
         property(cc.Label)

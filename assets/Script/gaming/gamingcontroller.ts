@@ -57,17 +57,24 @@ export default class NewClass extends cc.Component {
     // onLoad () {}
 
     start () {
-
+        if (this.flag == 1){
+            this.gameover();
+        }
     }
 
      update (dt:number) {
         let timeTmp = this.time + dt;
         this.time = timeTmp;
 
+        this.move(this.cm1);
+        this.move(this.bd1);
+        this.move(this.ttq1);
+        this.move(this.beg1);
+
         if (this.flag == 1){
-            let cmX = this.cm1.x;
-            this.cm1.x = cmX;
+            this.gameover();
         }
+        /*
         else{
             let cmX = this.cm1.x;
             this.cm1.x = cmX + 5;            
@@ -95,12 +102,19 @@ export default class NewClass extends cc.Component {
         
         if (this.beg1.x > 687){
             this.beg1.x = -887;
+        }*/
+     }
+     move(wuti:cc.Node){
+        let wutiX = wuti.x;
+        wuti.x = wutiX + 5;
+        if(wuti.x > 687){
+            wuti.x = -887;
         }
      }
-
      onbutton(){
-         this.cm1.x = 29;
-         this.cm1.y = -113;
          this.flag = 1;
+     }
+     gameover() {
+         cc.director.loadScene("gameover");
      }
 }

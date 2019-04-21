@@ -1,13 +1,13 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "version1",
+    "_name": "gaming",
     "_objFlags": 0,
     "_native": "",
     "scene": {
       "__id__": 1
     },
-    "asyncLoadAssets": false
+    "asyncLoadAssets": true
   },
   {
     "__type__": "cc.Scene",
@@ -55,7 +55,7 @@
     },
     "_zIndex": 0,
     "groupIndex": 0,
-    "autoReleaseAssets": false,
+    "autoReleaseAssets": true,
     "_id": "45b4c936-2c34-470e-b93e-773053d08250"
   },
   {

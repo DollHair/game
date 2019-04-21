@@ -1,64 +1,90 @@
-2019-04-17T06:24:20.955Z - normal: Load ~/.CocosCreator/settings.json
-2019-04-17T06:24:21.030Z - normal: Initializing Asset Database
-2019-04-17T06:24:21.033Z - normal: checking language setting...
-2019-04-17T06:24:21.034Z - normal: Language: zh
-2019-04-17T06:24:21.798Z - success: preview server running at http://localhost:7456
-2019-04-17T06:24:21.855Z - normal: failed to connect login server... skipping login
-2019-04-17T06:24:21.856Z - normal: Check project /Users/BWF/Desktop/minigame/game
-2019-04-17T06:24:21.859Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
-2019-04-17T06:24:22.705Z - normal: Initializing Cocos2d
-2019-04-17T06:24:24.012Z - normal: Initializing engine extends
-2019-04-17T06:24:24.077Z - success: protocol editor-framework registered
-2019-04-17T06:24:24.085Z - success: protocol app registered
-2019-04-17T06:24:24.085Z - success: protocol theme registered
-2019-04-17T06:24:24.085Z - success: protocol packages registered
-2019-04-17T06:24:24.086Z - success: protocol uuid registerred
-2019-04-17T06:24:24.086Z - success: protocol db registerred
-2019-04-17T06:24:24.086Z - success: protocol thumbnail registerred
-2019-04-17T06:24:24.086Z - success: protocol unpack registerred
-2019-04-17T06:24:24.086Z - success: protocol disable-commonjs registerred
-2019-04-17T06:24:24.090Z - success: asset-db-debugger loaded
-2019-04-17T06:24:24.091Z - success: color-picker loaded
-2019-04-17T06:24:24.195Z - success: fb-audience-network loaded
-2019-04-17T06:24:24.242Z - success: fb-live-stream loaded
-2019-04-17T06:24:24.246Z - success: google-play-instant loaded
-2019-04-17T06:24:24.259Z - success: huawei-runtime loaded
-2019-04-17T06:24:24.261Z - success: jsb-adapter loaded
-2019-04-17T06:24:24.266Z - success: oppo-runtime loaded
-2019-04-17T06:24:24.280Z - success: package-manager loaded
-2019-04-17T06:24:24.417Z - success: qqplay-adapter loaded
-2019-04-17T06:24:24.419Z - success: runtime-dev-tools loaded
-2019-04-17T06:24:24.430Z - success: sdkbox loaded
-2019-04-17T06:24:24.446Z - success: tester loaded
-2019-04-17T06:24:24.458Z - success: ui-grid loaded
-2019-04-17T06:24:24.468Z - success: ui-kit-preview-extra loaded
-2019-04-17T06:24:24.479Z - success: ui-kit-preview loaded
-2019-04-17T06:24:24.488Z - success: ui-kit loaded
-2019-04-17T06:24:24.500Z - success: ui-tree loaded
-2019-04-17T06:24:24.503Z - success: vivo-runtime loaded
-2019-04-17T06:24:24.504Z - success: weapp-adapter loaded
-2019-04-17T06:24:24.577Z - success: assets loaded
-2019-04-17T06:24:24.587Z - success: builder loaded
-2019-04-17T06:24:24.886Z - info: Cocos Services load base data!
-2019-04-17T06:24:24.895Z - success: cocos-services loaded
-2019-04-17T06:24:24.910Z - success: console loaded
-2019-04-17T06:24:24.950Z - success: fb-instant-games loaded
-2019-04-17T06:24:24.952Z - success: google-instant-games loaded
-2019-04-17T06:24:24.966Z - success: hierarchy loaded
-2019-04-17T06:24:24.978Z - success: inspector loaded
-2019-04-17T06:24:24.980Z - success: keystore loaded
-2019-04-17T06:24:24.992Z - success: node-library loaded
-2019-04-17T06:24:24.994Z - success: package-asset loaded
-2019-04-17T06:24:24.996Z - success: preferences loaded
-2019-04-17T06:24:25.005Z - success: project-exporter loaded
-2019-04-17T06:24:25.019Z - success: project-importer loaded
-2019-04-17T06:24:25.031Z - success: project-settings loaded
-2019-04-17T06:24:25.044Z - success: scene loaded
-2019-04-17T06:24:25.047Z - success: simulator-debugger loaded
-2019-04-17T06:24:25.049Z - success: sprite-editor loaded
-2019-04-17T06:24:25.062Z - success: store loaded
-2019-04-17T06:24:25.073Z - success: timeline loaded
-2019-04-17T06:24:27.241Z - normal: Loading packages
-2019-04-17T06:24:27.248Z - normal: Watching packages
-2019-04-17T06:24:27.369Z - normal: Run Application
-2019-04-17T06:55:07.539Z - info: shutdown preview server
+2019-04-21T04:41:41.470Z - normal: Load ~/.CocosCreator/settings.json
+2019-04-21T04:41:41.542Z - normal: Initializing Asset Database
+2019-04-21T04:41:41.545Z - normal: checking language setting...
+2019-04-21T04:41:41.545Z - normal: Language: zh
+2019-04-21T04:41:42.305Z - success: preview server running at http://localhost:7456
+2019-04-21T04:41:42.350Z - success: protocol editor-framework registered
+2019-04-21T04:41:42.351Z - success: protocol app registered
+2019-04-21T04:41:42.351Z - success: protocol theme registered
+2019-04-21T04:41:42.351Z - success: protocol packages registered
+2019-04-21T04:41:42.351Z - success: protocol uuid registerred
+2019-04-21T04:41:42.351Z - success: protocol db registerred
+2019-04-21T04:41:42.351Z - success: protocol thumbnail registerred
+2019-04-21T04:41:42.352Z - success: protocol unpack registerred
+2019-04-21T04:41:42.352Z - success: protocol disable-commonjs registerred
+2019-04-21T04:41:42.489Z - normal: connected!
+2019-04-21T04:41:42.492Z - normal: Check project /Users/BWF/Desktop/minigame/game
+2019-04-21T04:41:42.495Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
+2019-04-21T04:41:43.200Z - normal: Initializing Cocos2d
+2019-04-21T04:41:43.994Z - normal: Initializing engine extends
+2019-04-21T04:41:44.087Z - success: asset-db-debugger loaded
+2019-04-21T04:41:44.088Z - success: color-picker loaded
+2019-04-21T04:41:44.186Z - success: fb-audience-network loaded
+2019-04-21T04:41:44.245Z - success: fb-live-stream loaded
+2019-04-21T04:41:44.248Z - success: google-play-instant loaded
+2019-04-21T04:41:44.253Z - success: huawei-runtime loaded
+2019-04-21T04:41:44.254Z - success: jsb-adapter loaded
+2019-04-21T04:41:44.258Z - success: oppo-runtime loaded
+2019-04-21T04:41:44.268Z - success: package-manager loaded
+2019-04-21T04:41:44.430Z - success: qqplay-adapter loaded
+2019-04-21T04:41:44.432Z - success: runtime-dev-tools loaded
+2019-04-21T04:41:44.443Z - success: sdkbox loaded
+2019-04-21T04:41:44.455Z - success: tester loaded
+2019-04-21T04:41:44.467Z - success: ui-grid loaded
+2019-04-21T04:41:44.478Z - success: ui-kit-preview-extra loaded
+2019-04-21T04:41:44.489Z - success: ui-kit-preview loaded
+2019-04-21T04:41:44.499Z - success: ui-kit loaded
+2019-04-21T04:41:44.510Z - success: ui-tree loaded
+2019-04-21T04:41:44.514Z - success: vivo-runtime loaded
+2019-04-21T04:41:44.515Z - success: weapp-adapter loaded
+2019-04-21T04:41:44.589Z - success: assets loaded
+2019-04-21T04:41:44.599Z - success: builder loaded
+2019-04-21T04:41:44.891Z - success: cocos-services loaded
+2019-04-21T04:41:44.903Z - success: console loaded
+2019-04-21T04:41:44.942Z - success: fb-instant-games loaded
+2019-04-21T04:41:44.944Z - success: google-instant-games loaded
+2019-04-21T04:41:44.966Z - success: hierarchy loaded
+2019-04-21T04:41:44.982Z - success: inspector loaded
+2019-04-21T04:41:44.984Z - success: keystore loaded
+2019-04-21T04:41:44.998Z - success: node-library loaded
+2019-04-21T04:41:45.000Z - success: package-asset loaded
+2019-04-21T04:41:45.002Z - success: preferences loaded
+2019-04-21T04:41:45.014Z - success: project-exporter loaded
+2019-04-21T04:41:45.028Z - success: project-importer loaded
+2019-04-21T04:41:45.037Z - success: project-settings loaded
+2019-04-21T04:41:45.050Z - success: scene loaded
+2019-04-21T04:41:45.053Z - success: simulator-debugger loaded
+2019-04-21T04:41:45.055Z - success: sprite-editor loaded
+2019-04-21T04:41:45.097Z - success: store loaded
+2019-04-21T04:41:45.110Z - success: timeline loaded
+2019-04-21T04:41:47.147Z - info: Cocos Services load base data!
+2019-04-21T04:41:47.148Z - normal: Loading packages
+2019-04-21T04:41:47.155Z - normal: Watching packages
+2019-04-21T04:41:47.384Z - normal: Run Application
+2019-04-21T05:22:41.221Z - warn: Please specifiy a default value for "NewClass" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 start
+2019-04-21T05:22:41.225Z - error: Can not declare maincontroller.start, it is already defined in the prototype of maincontroller
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at defineProp (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:122:24)
+    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:646:25)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:685:17)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClassDecorator.js:181:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClassDecorator.js:34:28
+    at window.__decorate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/polyfill/typescript.js:65:38)
+    at /Users/BWF/Desktop/minigame/game/temp/quick-scripts/assets/Script/gamemain/maincontroller.js:40:16
+    at __define (/Users/BWF/Desktop/minigame/game/temp/quick-scripts/assets/Script/gamemain/maincontroller.js:44:2)
+2019-04-21T05:30:26.131Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:12449
+2019-04-21T06:12:20.538Z - warn: Please specifiy a default value for "NewClass" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 view

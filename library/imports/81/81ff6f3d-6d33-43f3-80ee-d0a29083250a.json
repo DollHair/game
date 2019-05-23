@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "food",
+    "texture": "b9b9e538-cd6c-490d-82b4-b0243fd05498",
+    "atlas": "",
+    "rect": [
+      11,
+      12,
+      1374,
+      173
+    ],
+    "offset": [
+      -2,
+      1.5
+    ],
+    "originalSize": [
+      1400,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

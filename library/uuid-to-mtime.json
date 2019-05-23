@@ -245,37 +245,37 @@
     "relativePath": "prefab/webview.prefab"
   },
   "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
-    "asset": 1558586559701,
+    "asset": 1558604383000,
     "meta": 1554820683000,
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1558586570832,
+    "asset": 1558604233000,
     "meta": 1554820683000,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1558586550591,
-    "meta": 1554820683000,
+    "asset": 1558601286000,
+    "meta": 1558613819451,
     "relativePath": "Texture"
   },
   "45b4c936-2c34-470e-b93e-773053d08250": {
-    "asset": 1558590407953,
-    "meta": 1558590407981,
+    "asset": 1558614133449,
+    "meta": 1558614133550,
     "relativePath": "Scene/gaming.fire"
   },
   "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1": {
-    "asset": 1558589043633,
-    "meta": 1558589043666,
+    "asset": 1558612273180,
+    "meta": 1558612273216,
     "relativePath": "Scene/Main.fire"
   },
   "7bbb347a-fd8c-4212-8ff2-036c8d0bf473": {
-    "asset": 1558586525844,
+    "asset": 1558604235000,
     "meta": 1555824054000,
     "relativePath": "Script/gaming"
   },
   "f25697b2-9f8b-411e-bdce-c1c74c053ad9": {
-    "asset": 1558586560599,
+    "asset": 1558586885000,
     "meta": 1555824067000,
     "relativePath": "Script/gamed"
   },
@@ -285,8 +285,8 @@
     "relativePath": "Script/gamemain"
   },
   "25036189-6603-4c17-a3c9-454ce44ed824": {
-    "asset": 1558589191377,
-    "meta": 1558589191410,
+    "asset": 1558612294549,
+    "meta": 1558612294561,
     "relativePath": "Scene/gameover.fire"
   },
   "ca0d615c-35d6-48cb-bc4c-b0af510a2a42": {
@@ -300,48 +300,78 @@
     "relativePath": "Script/gamemain/maincontroller.ts"
   },
   "90c6aace-cbf7-4c62-b51a-bdf3d68c18f1": {
-    "asset": 1558586599172,
+    "asset": 1558601261000,
     "meta": 1555900738000,
-    "relativePath": "Texture/背景图"
+    "relativePath": "Texture/background"
   },
   "c4d8a493-431a-4be5-b90a-78fb8ffd5c1d": {
-    "asset": 1558586602370,
+    "asset": 1558601286000,
     "meta": 1555900738000,
-    "relativePath": "Texture/食材"
+    "relativePath": "Texture/food"
   },
   "f1d9d358-14f4-4e40-8a94-99752249dd43": {
     "asset": 1554731298000,
     "meta": 1558586798675,
-    "relativePath": "Texture/背景图/餐桌.jpg"
-  },
-  "6092e848-c677-4006-9410-3c282c643842": {
-    "asset": 1558254199000,
-    "meta": 1558586798159,
-    "relativePath": "Script/gaming/gamingcontroller.ts"
-  },
-  "d5d9e945-14e4-48ec-8bde-b7a900bd7dc5": {
-    "asset": 1558587663416,
-    "meta": 1558587670758,
-    "relativePath": "Texture/食材/食材.plist"
-  },
-  "3488d7d7-1d34-446e-9f2e-ad00cd3016d4": {
-    "asset": 1558587663414,
-    "meta": 1558587670722,
-    "relativePath": "Texture/食材/食材.png"
+    "relativePath": "Texture/background/餐桌.jpg"
   },
   "237f2594-a435-4706-858c-ab8ab2c13307": {
-    "asset": 1558588124000,
-    "meta": 1558588110536,
-    "relativePath": "Texture/字体"
+    "asset": 1558601254000,
+    "meta": 1558613912199,
+    "relativePath": "Texture/font"
   },
   "1bb2a1c6-b19e-4687-8403-258e8e6fad4d": {
     "asset": 1558588130101,
     "meta": 1558588130125,
-    "relativePath": "Texture/字体/本墨悠圆.ttf"
+    "relativePath": "Texture/font/本墨悠圆.ttf"
   },
   "d7d5f7b5-760a-435b-a8ec-87dd10cace83": {
     "asset": 1558588530115,
     "meta": 1558588530184,
-    "relativePath": "Texture/背景图/logo.png"
+    "relativePath": "Texture/background/logo.png"
+  },
+  "ca3f95f3-49e0-4613-bf91-82a98446e9c8": {
+    "asset": 1558591536494,
+    "meta": 1558591536537,
+    "relativePath": "Texture/background/主页.png"
+  },
+  "27da0275-0d49-4e85-8967-b0c9232bcad9": {
+    "asset": 1558591536493,
+    "meta": 1558591536541,
+    "relativePath": "Texture/background/订单.png"
+  },
+  "d5d9e945-14e4-48ec-8bde-b7a900bd7dc5": {
+    "asset": 1558600530081,
+    "meta": 1558601264043,
+    "relativePath": "Texture/food/food.plist"
+  },
+  "3488d7d7-1d34-446e-9f2e-ad00cd3016d4": {
+    "asset": 1558600530080,
+    "meta": 1558601267071,
+    "relativePath": "Texture/food/food.png"
+  },
+  "1c8948f2-a2ab-4ade-97b4-51298941108f": {
+    "asset": 1558604499000,
+    "meta": 1558603547718,
+    "relativePath": "resources"
+  },
+  "34be4a61-eba6-4316-b5a1-38b8ae6f2fe6": {
+    "asset": 1558604499000,
+    "meta": 1558603641797,
+    "relativePath": "resources/assets"
+  },
+  "7003d298-e2dd-4407-9de9-c7f2e3f4185c": {
+    "asset": 1558604492322,
+    "meta": 1558604495623,
+    "relativePath": "resources/assets/food.plist"
+  },
+  "b9b9e538-cd6c-490d-82b4-b0243fd05498": {
+    "asset": 1558604492319,
+    "meta": 1558604495613,
+    "relativePath": "resources/assets/food.png"
+  },
+  "6092e848-c677-4006-9410-3c282c643842": {
+    "asset": 1558613048636,
+    "meta": 1558613055247,
+    "relativePath": "Script/gaming/gamingcontroller.ts"
   }
 }

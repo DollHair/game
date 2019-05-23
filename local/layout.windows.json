@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 311.09375,
+                "height": 312.09375,
                 "type": "panel",
                 "width": 204
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 345.109375,
+                "height": 344.109375,
                 "type": "panel",
                 "width": 204
               }
@@ -103,5 +103,30 @@
       ]
     }
   },
-  "panels": {}
+  "panels": {
+    "builder": {
+      "x": 0,
+      "y": 23,
+      "width": 1440,
+      "height": 877
+    },
+    "project-settings": {
+      "x": 0,
+      "y": 23,
+      "width": 1440,
+      "height": 877
+    },
+    "preferences": {
+      "x": 440,
+      "y": 177,
+      "width": 584,
+      "height": 548
+    },
+    "sprite-editor": {
+      "x": 470,
+      "y": 177,
+      "width": 500,
+      "height": 522
+    }
+  }
 }

@@ -245,88 +245,103 @@
     "relativePath": "prefab/webview.prefab"
   },
   "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
-    "asset": 1555827882841,
-    "meta": 1554820683285,
+    "asset": 1558586559701,
+    "meta": 1554820683000,
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1555827925000,
-    "meta": 1554820683285,
+    "asset": 1558586570832,
+    "meta": 1554820683000,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1555827933000,
-    "meta": 1554820683285,
+    "asset": 1558586550591,
+    "meta": 1554820683000,
     "relativePath": "Texture"
   },
-  "f6f75048-3adc-47a1-85da-77e8407c4fa3": {
-    "asset": 1554731136039,
-    "meta": 1554820802893,
-    "relativePath": "Texture/布丁.png"
-  },
-  "dec3d12d-f00a-4b41-ad82-d9f74110bb90": {
-    "asset": 1554731146150,
-    "meta": 1554820802899,
-    "relativePath": "Texture/甜甜圈.png"
-  },
-  "6adb274a-d21e-4732-a2de-2f934b740db8": {
-    "asset": 1554731140713,
-    "meta": 1554820802921,
-    "relativePath": "Texture/草莓.png"
-  },
-  "f1d9d358-14f4-4e40-8a94-99752249dd43": {
-    "asset": 1554731298201,
-    "meta": 1554820802941,
-    "relativePath": "Texture/餐桌.jpg"
-  },
-  "6db96ce3-d27e-4062-b289-038374916e8d": {
-    "asset": 1554731109633,
-    "meta": 1554820802949,
-    "relativePath": "Texture/饼干.png"
-  },
   "45b4c936-2c34-470e-b93e-773053d08250": {
-    "asset": 1555484105810,
-    "meta": 1555834579799,
+    "asset": 1558590407953,
+    "meta": 1558590407981,
     "relativePath": "Scene/gaming.fire"
   },
   "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1": {
-    "asset": 1555834948973,
-    "meta": 1555834948994,
+    "asset": 1558589043633,
+    "meta": 1558589043666,
     "relativePath": "Scene/Main.fire"
   },
   "7bbb347a-fd8c-4212-8ff2-036c8d0bf473": {
-    "asset": 1555827837000,
-    "meta": 1555824054944,
+    "asset": 1558586525844,
+    "meta": 1555824054000,
     "relativePath": "Script/gaming"
   },
   "f25697b2-9f8b-411e-bdce-c1c74c053ad9": {
-    "asset": 1555827227000,
-    "meta": 1555824067016,
+    "asset": 1558586560599,
+    "meta": 1555824067000,
     "relativePath": "Script/gamed"
   },
   "479bb844-8478-4fa8-a85a-5dd02ac6bca2": {
-    "asset": 1555825966000,
-    "meta": 1555824075468,
+    "asset": 1558586558283,
+    "meta": 1555824075000,
     "relativePath": "Script/gamemain"
   },
   "25036189-6603-4c17-a3c9-454ce44ed824": {
-    "asset": 1555834742615,
-    "meta": 1555834742632,
+    "asset": 1558589191377,
+    "meta": 1558589191410,
     "relativePath": "Scene/gameover.fire"
   },
   "ca0d615c-35d6-48cb-bc4c-b0af510a2a42": {
-    "asset": 1555835054967,
-    "meta": 1555835161993,
+    "asset": 1555835054000,
+    "meta": 1558586797971,
     "relativePath": "Script/gamed/gameovercontroller.ts"
   },
   "2c387008-9e9c-4111-b2b1-460789de6801": {
-    "asset": 1555835038918,
-    "meta": 1555835162037,
+    "asset": 1555835038000,
+    "meta": 1558586798154,
     "relativePath": "Script/gamemain/maincontroller.ts"
   },
+  "90c6aace-cbf7-4c62-b51a-bdf3d68c18f1": {
+    "asset": 1558586599172,
+    "meta": 1555900738000,
+    "relativePath": "Texture/背景图"
+  },
+  "c4d8a493-431a-4be5-b90a-78fb8ffd5c1d": {
+    "asset": 1558586602370,
+    "meta": 1555900738000,
+    "relativePath": "Texture/食材"
+  },
+  "f1d9d358-14f4-4e40-8a94-99752249dd43": {
+    "asset": 1554731298000,
+    "meta": 1558586798675,
+    "relativePath": "Texture/背景图/餐桌.jpg"
+  },
   "6092e848-c677-4006-9410-3c282c643842": {
-    "asset": 1555835109085,
-    "meta": 1555835162048,
+    "asset": 1558254199000,
+    "meta": 1558586798159,
     "relativePath": "Script/gaming/gamingcontroller.ts"
+  },
+  "d5d9e945-14e4-48ec-8bde-b7a900bd7dc5": {
+    "asset": 1558587663416,
+    "meta": 1558587670758,
+    "relativePath": "Texture/食材/食材.plist"
+  },
+  "3488d7d7-1d34-446e-9f2e-ad00cd3016d4": {
+    "asset": 1558587663414,
+    "meta": 1558587670722,
+    "relativePath": "Texture/食材/食材.png"
+  },
+  "237f2594-a435-4706-858c-ab8ab2c13307": {
+    "asset": 1558588124000,
+    "meta": 1558588110536,
+    "relativePath": "Texture/字体"
+  },
+  "1bb2a1c6-b19e-4687-8403-258e8e6fad4d": {
+    "asset": 1558588130101,
+    "meta": 1558588130125,
+    "relativePath": "Texture/字体/本墨悠圆.ttf"
+  },
+  "d7d5f7b5-760a-435b-a8ec-87dd10cace83": {
+    "asset": 1558588530115,
+    "meta": 1558588530184,
+    "relativePath": "Texture/背景图/logo.png"
   }
 }

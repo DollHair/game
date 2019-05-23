@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "碧根果",
+    "texture": "3488d7d7-1d34-446e-9f2e-ad00cd3016d4",
+    "atlas": "d5d9e945-14e4-48ec-8bde-b7a900bd7dc5",
+    "rect": [
+      0,
+      200,
+      200,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

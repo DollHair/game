@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "3488d7d7-1d34-446e-9f2e-ad00cd3016d4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "食材": {
+      "ver": "1.0.3",
+      "uuid": "118a97c8-9ba2-4a0b-aadc-c1cd99adb288",
+      "rawTextureUuid": "3488d7d7-1d34-446e-9f2e-ad00cd3016d4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0.5,
+      "trimX": 10,
+      "trimY": 11,
+      "width": 1978,
+      "height": 377,
+      "rawWidth": 2000,
+      "rawHeight": 400,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

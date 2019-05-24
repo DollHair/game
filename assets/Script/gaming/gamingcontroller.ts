@@ -28,6 +28,72 @@ export default class GamingController extends cc.Component {
     @property(cc.Node)
     falsev: cc.Node = null;
 
+    @property(cc.Node)
+    node1: cc.Node = null;
+
+    @property(cc.Node)
+    node2: cc.Node = null;
+
+    @property(cc.Node)
+    node3: cc.Node = null;
+
+    @property(cc.Node)
+    node4: cc.Node = null;
+
+    @property(cc.Node)
+    nodea1: cc.Node = null;
+
+    @property(cc.Node)
+    nodea2: cc.Node = null;
+
+    @property(cc.Node)
+    nodea3: cc.Node = null;
+
+    @property(cc.Node)
+    nodea4: cc.Node = null;
+
+    @property(cc.Node)
+    nodec1: cc.Node = null;
+
+    @property(cc.Node)
+    nodec2: cc.Node = null;
+
+    @property(cc.Node)
+    nodec3: cc.Node = null;
+
+    @property(cc.Node)
+    nodec1a: cc.Node = null;
+
+    @property(cc.Node)
+    nodec2a: cc.Node = null;
+
+    @property(cc.Node)
+    nodec3a: cc.Node = null;
+
+    @property(cc.Sprite)
+    nodes1: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodes2: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodes3: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodes4: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodeas1: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodeas2: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodeas3: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    nodeas4: cc.Sprite = null;
+
     @property(cc.Button)
     tips: cc.Button = null;
 
@@ -49,30 +115,6 @@ export default class GamingController extends cc.Component {
     @property(cc.Button)
     nodeb4: cc.Button = null;
 
-    @property(cc.Node)
-    node1: cc.Node = null;
-
-    @property(cc.Node)
-    node2: cc.Node = null;
-
-    @property(cc.Node)
-    node3: cc.Node = null;
-
-    @property(cc.Node)
-    node4: cc.Node = null;
-
-    @property(cc.Sprite)
-    nodes1: cc.Sprite = null;
-
-    @property(cc.Sprite)
-    nodes2: cc.Sprite = null;
-
-    @property(cc.Sprite)
-    nodes3: cc.Sprite = null;
-
-    @property(cc.Sprite)
-    nodes4: cc.Sprite = null;
-
     @property(cc.Label)
     title1: cc.Label = null;
 
@@ -91,6 +133,8 @@ export default class GamingController extends cc.Component {
 
     count: number = 0;
 
+    flag2: number = 0;
+
 
 
 
@@ -103,11 +147,19 @@ export default class GamingController extends cc.Component {
     start () {
         this.score = 0;
         this.stop = 0;
-        this.flag = 0;
+        this.flag = 1;
         this.count = 0;
+        this.flag2 = 0;
         this.tipsv.active = false;
         this.homev.active = false;
         this.falsev.active = false;
+        this.nodea1.active = false;
+        this.nodea2.active = false;
+        this.nodea3.active = false;
+        this.nodea4.active = false;
+        this.nodec1a.active = false;
+        this.nodec2a.active = false;
+        this.nodec3a.active = false;
         this.randsprite(this.nodes1);
         this.randsprite(this.nodes2);
         this.randsprite(this.nodes3);
@@ -116,12 +168,44 @@ export default class GamingController extends cc.Component {
     }
 
     update (dt:number) {
-        
+
         this.data.string = String(this.score);
         this.move(this.node1,this.nodes1);
         this.move(this.node2,this.nodes2);
         this.move(this.node3,this.nodes3);
         this.move(this.node4,this.nodes4);
+        if(this.flag2 == 0){
+            this.nodec1.active = true;
+            this.nodec2.active = true;
+            this.nodec3.active = true;
+            this.nodec1a.active = false;
+            this.nodec2a.active = false;
+            this.nodec3a.active = false;
+        }
+        if(this.flag2 == 1){
+            this.nodec1.active = false;
+            this.nodec2.active = true;
+            this.nodec3.active = true;
+            this.nodec1a.active = true;
+            this.nodec2a.active = false;
+            this.nodec3a.active = false;
+        }
+        if(this.flag2 == 2){
+            this.nodec1.active = false;
+            this.nodec2.active = false;
+            this.nodec3.active = true;
+            this.nodec1a.active = true;
+            this.nodec2a.active = true;
+            this.nodec3a.active = false;
+        }
+        if(this.flag2 == 3){
+            this.nodec1.active = false;
+            this.nodec2.active = false;
+            this.nodec3.active = false;
+            this.nodec1a.active = true;
+            this.nodec2a.active = true;
+            this.nodec3a.active = true;
+        }
 
      }
 
@@ -168,6 +252,7 @@ export default class GamingController extends cc.Component {
             wuti.x = wutiX;
         if(wuti.x > 687){
             this.randsprite(wutis);
+            wuti.active = true;
             wuti.x = -887;
         }
      }
@@ -234,28 +319,50 @@ export default class GamingController extends cc.Component {
      }
 
      onbutton1(){
+        this.touchactionS(this.node1,this.nodes1,this.nodea1,this.nodeas1);
         let t = this.nodes1.spriteFrame.name;
         let s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
 
      }
 
      onbutton2(){
+        this.touchactionS(this.node2,this.nodes2,this.nodea2,this.nodeas2);
         let t = this.nodes2.spriteFrame.name;
         let s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
      }
 
      onbutton3(){
+        this.touchactionS(this.node3,this.nodes3,this.nodea3,this.nodeas3);
         let t = this.nodes3.spriteFrame.name;
         let s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
      }
 
      onbutton4(){
+        this.touchactionS(this.node4,this.nodes4,this.nodea4,this.nodeas4);
         let t = this.nodes4.spriteFrame.name;
         let s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
+     }
+
+     touchaction(nodea:cc.Node){
+        let action = cc.moveTo(1, -9, -77);
+        nodea.runAction(action);
+     }
+
+     touchactionS(node:cc.Node,nodes:cc.Sprite,nodea:cc.Node,nodeas:cc.Sprite){
+        node.active = false;
+        nodea.position = node.position;
+        nodeas.spriteFrame = nodes.spriteFrame;
+        nodea.active = true;
+        this.touchaction(nodea);
+        this.scheduleOnce(function(){nodea.active = false},1.2);
      }
 
      onbuttonconfirm(){
@@ -263,12 +370,14 @@ export default class GamingController extends cc.Component {
             this.score += 5;
             this.flag = 0;
             this.count = 0;
+            this.flag2 = 0;
             this.initstringtitle();
         }
         else{
             this.score -= 5;
             this.flag = 0;
             this.count = 0;
+            this.flag2 = 0;
             this.initstringtitle();
         }
         if(this.score < 0){

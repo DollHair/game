@@ -23,6 +23,28 @@ var GamingController = /** @class */ (function (_super) {
         _this.tipsv = null;
         _this.homev = null;
         _this.falsev = null;
+        _this.node1 = null;
+        _this.node2 = null;
+        _this.node3 = null;
+        _this.node4 = null;
+        _this.nodea1 = null;
+        _this.nodea2 = null;
+        _this.nodea3 = null;
+        _this.nodea4 = null;
+        _this.nodec1 = null;
+        _this.nodec2 = null;
+        _this.nodec3 = null;
+        _this.nodec1a = null;
+        _this.nodec2a = null;
+        _this.nodec3a = null;
+        _this.nodes1 = null;
+        _this.nodes2 = null;
+        _this.nodes3 = null;
+        _this.nodes4 = null;
+        _this.nodeas1 = null;
+        _this.nodeas2 = null;
+        _this.nodeas3 = null;
+        _this.nodeas4 = null;
         _this.tips = null;
         _this.home = null;
         _this.conf = null;
@@ -30,20 +52,13 @@ var GamingController = /** @class */ (function (_super) {
         _this.nodeb2 = null;
         _this.nodeb3 = null;
         _this.nodeb4 = null;
-        _this.node1 = null;
-        _this.node2 = null;
-        _this.node3 = null;
-        _this.node4 = null;
-        _this.nodes1 = null;
-        _this.nodes2 = null;
-        _this.nodes3 = null;
-        _this.nodes4 = null;
         _this.title1 = null;
         _this.data = null;
         _this.score = 0;
         _this.stop = 0;
         _this.flag = 0;
         _this.count = 0;
+        _this.flag2 = 0;
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -51,11 +66,19 @@ var GamingController = /** @class */ (function (_super) {
     GamingController.prototype.start = function () {
         this.score = 0;
         this.stop = 0;
-        this.flag = 0;
+        this.flag = 1;
         this.count = 0;
+        this.flag2 = 0;
         this.tipsv.active = false;
         this.homev.active = false;
         this.falsev.active = false;
+        this.nodea1.active = false;
+        this.nodea2.active = false;
+        this.nodea3.active = false;
+        this.nodea4.active = false;
+        this.nodec1a.active = false;
+        this.nodec2a.active = false;
+        this.nodec3a.active = false;
         this.randsprite(this.nodes1);
         this.randsprite(this.nodes2);
         this.randsprite(this.nodes3);
@@ -68,6 +91,38 @@ var GamingController = /** @class */ (function (_super) {
         this.move(this.node2, this.nodes2);
         this.move(this.node3, this.nodes3);
         this.move(this.node4, this.nodes4);
+        if (this.flag2 == 0) {
+            this.nodec1.active = true;
+            this.nodec2.active = true;
+            this.nodec3.active = true;
+            this.nodec1a.active = false;
+            this.nodec2a.active = false;
+            this.nodec3a.active = false;
+        }
+        if (this.flag2 == 1) {
+            this.nodec1.active = false;
+            this.nodec2.active = true;
+            this.nodec3.active = true;
+            this.nodec1a.active = true;
+            this.nodec2a.active = false;
+            this.nodec3a.active = false;
+        }
+        if (this.flag2 == 2) {
+            this.nodec1.active = false;
+            this.nodec2.active = false;
+            this.nodec3.active = true;
+            this.nodec1a.active = true;
+            this.nodec2a.active = true;
+            this.nodec3a.active = false;
+        }
+        if (this.flag2 == 3) {
+            this.nodec1.active = false;
+            this.nodec2.active = false;
+            this.nodec3.active = false;
+            this.nodec1a.active = true;
+            this.nodec2a.active = true;
+            this.nodec3a.active = true;
+        }
     };
     GamingController.prototype.randsprite = function (sp) {
         var t1 = this.randomtitle();
@@ -110,6 +165,7 @@ var GamingController = /** @class */ (function (_super) {
             wuti.x = wutiX;
         if (wuti.x > 687) {
             this.randsprite(wutis);
+            wuti.active = true;
             wuti.x = -887;
         }
     };
@@ -167,36 +223,58 @@ var GamingController = /** @class */ (function (_super) {
         this.gameover();
     };
     GamingController.prototype.onbutton1 = function () {
+        this.touchactionS(this.node1, this.nodes1, this.nodea1, this.nodeas1);
         var t = this.nodes1.spriteFrame.name;
         var s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
     };
     GamingController.prototype.onbutton2 = function () {
+        this.touchactionS(this.node2, this.nodes2, this.nodea2, this.nodeas2);
         var t = this.nodes2.spriteFrame.name;
         var s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
     };
     GamingController.prototype.onbutton3 = function () {
+        this.touchactionS(this.node3, this.nodes3, this.nodea3, this.nodeas3);
         var t = this.nodes3.spriteFrame.name;
         var s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
     };
     GamingController.prototype.onbutton4 = function () {
+        this.touchactionS(this.node4, this.nodes4, this.nodea4, this.nodeas4);
         var t = this.nodes4.spriteFrame.name;
         var s = dic2[t];
         this.count += s;
+        this.flag2 += 1;
+    };
+    GamingController.prototype.touchaction = function (nodea) {
+        var action = cc.moveTo(1, -9, -77);
+        nodea.runAction(action);
+    };
+    GamingController.prototype.touchactionS = function (node, nodes, nodea, nodeas) {
+        node.active = false;
+        nodea.position = node.position;
+        nodeas.spriteFrame = nodes.spriteFrame;
+        nodea.active = true;
+        this.touchaction(nodea);
+        this.scheduleOnce(function () { nodea.active = false; }, 1.2);
     };
     GamingController.prototype.onbuttonconfirm = function () {
         if (this.count == this.flag) {
             this.score += 5;
             this.flag = 0;
             this.count = 0;
+            this.flag2 = 0;
             this.initstringtitle();
         }
         else {
             this.score -= 5;
             this.flag = 0;
             this.count = 0;
+            this.flag2 = 0;
             this.initstringtitle();
         }
         if (this.score < 0) {
@@ -225,6 +303,72 @@ var GamingController = /** @class */ (function (_super) {
         property(cc.Node)
     ], GamingController.prototype, "falsev", void 0);
     __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "node1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "node2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "node3", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "node4", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodea1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodea2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodea3", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodea4", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodec1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodec2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodec3", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodec1a", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodec2a", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodec3a", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodes1", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodes2", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodes3", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodes4", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodeas1", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodeas2", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodeas3", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GamingController.prototype, "nodeas4", void 0);
+    __decorate([
         property(cc.Button)
     ], GamingController.prototype, "tips", void 0);
     __decorate([
@@ -245,30 +389,6 @@ var GamingController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Button)
     ], GamingController.prototype, "nodeb4", void 0);
-    __decorate([
-        property(cc.Node)
-    ], GamingController.prototype, "node1", void 0);
-    __decorate([
-        property(cc.Node)
-    ], GamingController.prototype, "node2", void 0);
-    __decorate([
-        property(cc.Node)
-    ], GamingController.prototype, "node3", void 0);
-    __decorate([
-        property(cc.Node)
-    ], GamingController.prototype, "node4", void 0);
-    __decorate([
-        property(cc.Sprite)
-    ], GamingController.prototype, "nodes1", void 0);
-    __decorate([
-        property(cc.Sprite)
-    ], GamingController.prototype, "nodes2", void 0);
-    __decorate([
-        property(cc.Sprite)
-    ], GamingController.prototype, "nodes3", void 0);
-    __decorate([
-        property(cc.Sprite)
-    ], GamingController.prototype, "nodes4", void 0);
     __decorate([
         property(cc.Label)
     ], GamingController.prototype, "title1", void 0);

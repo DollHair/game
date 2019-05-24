@@ -1,69 +1,78 @@
-2019-05-23T09:41:43.702Z - normal: Load ~/.CocosCreator/settings.json
-2019-05-23T09:41:43.803Z - normal: Initializing Asset Database
-2019-05-23T09:41:43.808Z - normal: checking language setting...
-2019-05-23T09:41:43.809Z - normal: Language: zh
-2019-05-23T09:41:44.611Z - success: preview server running at http://localhost:7456
-2019-05-23T09:41:44.658Z - success: protocol editor-framework registered
-2019-05-23T09:41:44.658Z - success: protocol app registered
-2019-05-23T09:41:44.658Z - success: protocol theme registered
-2019-05-23T09:41:44.658Z - success: protocol packages registered
-2019-05-23T09:41:44.658Z - success: protocol uuid registerred
-2019-05-23T09:41:44.658Z - success: protocol db registerred
-2019-05-23T09:41:44.658Z - success: protocol thumbnail registerred
-2019-05-23T09:41:44.659Z - success: protocol unpack registerred
-2019-05-23T09:41:44.659Z - success: protocol disable-commonjs registerred
-2019-05-23T09:41:44.750Z - normal: connected!
-2019-05-23T09:41:44.753Z - normal: Check project /Users/BWF/Desktop/minigame/game
-2019-05-23T09:41:44.756Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
-2019-05-23T09:41:45.538Z - normal: Initializing Cocos2d
-2019-05-23T09:41:46.368Z - normal: Initializing engine extends
-2019-05-23T09:41:46.464Z - success: asset-db-debugger loaded
-2019-05-23T09:41:46.472Z - success: color-picker loaded
-2019-05-23T09:41:46.578Z - success: fb-audience-network loaded
-2019-05-23T09:41:46.636Z - success: fb-live-stream loaded
-2019-05-23T09:41:46.640Z - success: google-play-instant loaded
-2019-05-23T09:41:46.645Z - success: huawei-runtime loaded
-2019-05-23T09:41:46.646Z - success: jsb-adapter loaded
-2019-05-23T09:41:46.651Z - success: oppo-runtime loaded
-2019-05-23T09:41:46.663Z - success: package-manager loaded
-2019-05-23T09:41:46.831Z - success: qqplay-adapter loaded
-2019-05-23T09:41:46.833Z - success: runtime-dev-tools loaded
-2019-05-23T09:41:46.845Z - success: sdkbox loaded
-2019-05-23T09:41:46.859Z - success: tester loaded
-2019-05-23T09:41:46.873Z - success: ui-grid loaded
-2019-05-23T09:41:46.882Z - success: ui-kit-preview-extra loaded
-2019-05-23T09:41:46.893Z - success: ui-kit-preview loaded
-2019-05-23T09:41:46.905Z - success: ui-kit loaded
-2019-05-23T09:41:46.914Z - success: ui-tree loaded
-2019-05-23T09:41:46.918Z - success: vivo-runtime loaded
-2019-05-23T09:41:46.920Z - success: weapp-adapter loaded
-2019-05-23T09:41:46.998Z - success: assets loaded
-2019-05-23T09:41:47.010Z - success: builder loaded
-2019-05-23T09:41:47.321Z - success: cocos-services loaded
-2019-05-23T09:41:47.333Z - success: console loaded
-2019-05-23T09:41:47.375Z - success: fb-instant-games loaded
-2019-05-23T09:41:47.377Z - success: google-instant-games loaded
-2019-05-23T09:41:47.392Z - success: hierarchy loaded
-2019-05-23T09:41:47.409Z - success: inspector loaded
-2019-05-23T09:41:47.410Z - success: keystore loaded
-2019-05-23T09:41:47.424Z - success: node-library loaded
-2019-05-23T09:41:47.427Z - success: package-asset loaded
-2019-05-23T09:41:47.428Z - success: preferences loaded
-2019-05-23T09:41:47.441Z - success: project-exporter loaded
-2019-05-23T09:41:47.455Z - success: project-importer loaded
-2019-05-23T09:41:47.465Z - success: project-settings loaded
-2019-05-23T09:41:47.478Z - success: scene loaded
-2019-05-23T09:41:47.479Z - success: simulator-debugger loaded
-2019-05-23T09:41:47.480Z - success: sprite-editor loaded
-2019-05-23T09:41:47.522Z - success: store loaded
-2019-05-23T09:41:47.538Z - success: timeline loaded
-2019-05-23T09:41:48.993Z - normal: Loading packages
-2019-05-23T09:41:48.999Z - normal: Watching packages
-2019-05-23T09:41:49.143Z - normal: Run Application
-2019-05-23T09:41:49.267Z - info: Cocos Services load base data!
-2019-05-23T11:22:47.652Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:16996
-2019-05-23T11:22:47.655Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:16998
-2019-05-23T11:53:15.300Z - normal: Start building with options : {
+2019-05-24T05:22:43.240Z - normal: Load ~/.CocosCreator/settings.json
+2019-05-24T05:22:43.442Z - normal: Initializing Asset Database
+2019-05-24T05:22:43.449Z - normal: checking language setting...
+2019-05-24T05:22:43.450Z - normal: Language: zh
+2019-05-24T05:22:46.026Z - success: preview server running at http://localhost:7456
+2019-05-24T05:22:46.065Z - success: protocol editor-framework registered
+2019-05-24T05:22:46.066Z - success: protocol app registered
+2019-05-24T05:22:46.066Z - success: protocol theme registered
+2019-05-24T05:22:46.066Z - success: protocol packages registered
+2019-05-24T05:22:46.067Z - success: protocol uuid registerred
+2019-05-24T05:22:46.067Z - success: protocol db registerred
+2019-05-24T05:22:46.067Z - success: protocol thumbnail registerred
+2019-05-24T05:22:46.067Z - success: protocol unpack registerred
+2019-05-24T05:22:46.067Z - success: protocol disable-commonjs registerred
+2019-05-24T05:22:46.220Z - normal: connected!
+2019-05-24T05:22:46.223Z - normal: Check project /Users/BWF/Desktop/minigame/game
+2019-05-24T05:22:46.226Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
+2019-05-24T05:22:48.526Z - normal: Initializing Cocos2d
+2019-05-24T05:22:49.992Z - normal: Initializing engine extends
+2019-05-24T05:22:50.110Z - success: asset-db-debugger loaded
+2019-05-24T05:22:50.118Z - success: color-picker loaded
+2019-05-24T05:22:50.473Z - success: fb-audience-network loaded
+2019-05-24T05:22:50.693Z - success: fb-live-stream loaded
+2019-05-24T05:22:50.708Z - success: google-play-instant loaded
+2019-05-24T05:22:50.727Z - success: huawei-runtime loaded
+2019-05-24T05:22:50.734Z - success: jsb-adapter loaded
+2019-05-24T05:22:50.745Z - success: oppo-runtime loaded
+2019-05-24T05:22:50.770Z - success: package-manager loaded
+2019-05-24T05:22:51.304Z - success: qqplay-adapter loaded
+2019-05-24T05:22:51.312Z - success: runtime-dev-tools loaded
+2019-05-24T05:22:51.339Z - success: sdkbox loaded
+2019-05-24T05:22:51.363Z - success: tester loaded
+2019-05-24T05:22:51.381Z - success: ui-grid loaded
+2019-05-24T05:22:51.401Z - success: ui-kit-preview-extra loaded
+2019-05-24T05:22:51.420Z - success: ui-kit-preview loaded
+2019-05-24T05:22:51.429Z - success: ui-kit loaded
+2019-05-24T05:22:51.445Z - success: ui-tree loaded
+2019-05-24T05:22:51.455Z - success: vivo-runtime loaded
+2019-05-24T05:22:51.459Z - success: weapp-adapter loaded
+2019-05-24T05:22:51.541Z - success: assets loaded
+2019-05-24T05:22:51.556Z - success: builder loaded
+2019-05-24T05:22:52.487Z - success: cocos-services loaded
+2019-05-24T05:22:52.503Z - success: console loaded
+2019-05-24T05:22:52.547Z - success: fb-instant-games loaded
+2019-05-24T05:22:52.549Z - success: google-instant-games loaded
+2019-05-24T05:22:52.571Z - success: hierarchy loaded
+2019-05-24T05:22:52.590Z - success: inspector loaded
+2019-05-24T05:22:52.594Z - success: keystore loaded
+2019-05-24T05:22:52.629Z - success: node-library loaded
+2019-05-24T05:22:52.635Z - success: package-asset loaded
+2019-05-24T05:22:52.641Z - success: preferences loaded
+2019-05-24T05:22:52.657Z - success: project-exporter loaded
+2019-05-24T05:22:52.675Z - success: project-importer loaded
+2019-05-24T05:22:52.713Z - success: project-settings loaded
+2019-05-24T05:22:52.735Z - success: scene loaded
+2019-05-24T05:22:52.740Z - success: simulator-debugger loaded
+2019-05-24T05:22:52.742Z - success: sprite-editor loaded
+2019-05-24T05:22:52.758Z - success: store loaded
+2019-05-24T05:22:52.778Z - success: timeline loaded
+2019-05-24T05:22:55.740Z - normal: Loading packages
+2019-05-24T05:22:55.748Z - normal: Watching packages
+2019-05-24T05:22:55.864Z - info: Cocos Services load base data!
+2019-05-24T05:22:55.910Z - normal: Run Application
+2019-05-24T11:18:54.559Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:12231
+2019-05-24T13:02:20.741Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:6807)
+    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-05-24T13:02:36.414Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:6807)
+    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-05-24T13:02:46.108Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -128,114 +137,23 @@
   "projectName": "demo2",
   "debugBuildWorker": false
 }
-2019-05-23T11:53:15.307Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-23T11:53:15.308Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-23T11:53:15.944Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-23T11:53:19.471Z - normal: Start building assets
-2019-05-23T11:53:19.472Z - normal: Start spawn build-worker
-2019-05-23T11:53:20.577Z - normal: Finish spawn build-worker
-2019-05-23T11:53:20.580Z - normal: Start init build-worker
-2019-05-23T11:53:25.816Z - normal: Finish init build-worker
-2019-05-23T11:53:25.819Z - normal: Start build-assets in worker
-2019-05-23T11:53:26.679Z - normal: Finish build-assets in worker
-2019-05-23T11:53:26.686Z - normal: Finish building assets
-2019-05-23T11:53:26.709Z - normal: Start building plugin scripts
-2019-05-23T11:53:26.758Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-23T11:53:29.895Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-23T11:53:35.594Z - normal: Initializing...
+2019-05-24T13:02:46.112Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-24T13:02:46.113Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-24T13:02:46.753Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-24T13:02:51.124Z - normal: Start building assets
+2019-05-24T13:02:51.124Z - normal: Start spawn build-worker
+2019-05-24T13:02:52.088Z - normal: Finish spawn build-worker
+2019-05-24T13:02:52.088Z - normal: Start init build-worker
+2019-05-24T13:02:55.892Z - normal: Finish init build-worker
+2019-05-24T13:02:55.892Z - normal: Start build-assets in worker
+2019-05-24T13:02:56.656Z - normal: Finish build-assets in worker
+2019-05-24T13:02:56.694Z - normal: Finish building assets
+2019-05-24T13:02:56.707Z - normal: Start building plugin scripts
+2019-05-24T13:02:56.752Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-24T13:02:59.628Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-24T13:03:03.671Z - normal: Initializing...
 
-2019-05-23T11:53:35.604Z - normal: idePortFile: /Users/BWF/Library/Application Support/微信web开发者工具/Default/.ide
-
-2019-05-23T11:53:35.631Z - normal: starting ide...
-
-2019-05-23T11:53:42.122Z - normal: IDE server has started, listening on http://127.0.0.1:61288
-
-2019-05-23T11:53:42.140Z - normal: initialization finished
-
-2019-05-23T11:53:42.803Z - normal: open IDE success
-
-2019-05-23T11:56:52.195Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-23T11:56:52.202Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-23T11:56:52.203Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-23T11:56:52.206Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-23T11:56:55.849Z - normal: Start building assets
-2019-05-23T11:56:55.850Z - normal: Start spawn build-worker
-2019-05-23T11:56:56.850Z - normal: Finish spawn build-worker
-2019-05-23T11:56:56.850Z - normal: Start init build-worker
-2019-05-23T11:57:02.339Z - normal: Finish init build-worker
-2019-05-23T11:57:02.340Z - normal: Start build-assets in worker
-2019-05-23T11:57:03.231Z - normal: Finish build-assets in worker
-2019-05-23T11:57:03.239Z - normal: Finish building assets
-2019-05-23T11:57:03.262Z - normal: Start building plugin scripts
-2019-05-23T11:57:03.316Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-23T11:57:06.841Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-23T11:57:10.037Z - normal: Initializing...
-
-2019-05-23T11:57:10.052Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
+2019-05-24T13:03:03.684Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
 For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
 工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
 详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
@@ -246,437 +164,3 @@ For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtoo
     at readableAddChunk (_stream_readable.js:178:18)
     at Socket.Readable.push (_stream_readable.js:136:10)
     at Pipe.onread (net.js:560:20)
-2019-05-23T11:57:55.004Z - normal: Initializing...
-
-2019-05-23T11:57:55.014Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:04:39.437Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-23T12:04:39.445Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-23T12:04:39.445Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-23T12:04:39.447Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-23T12:04:42.918Z - normal: Start building assets
-2019-05-23T12:04:42.918Z - normal: Start spawn build-worker
-2019-05-23T12:04:43.918Z - normal: Finish spawn build-worker
-2019-05-23T12:04:43.918Z - normal: Start init build-worker
-2019-05-23T12:04:47.873Z - normal: Finish init build-worker
-2019-05-23T12:04:47.873Z - normal: Start build-assets in worker
-2019-05-23T12:04:48.627Z - normal: Finish build-assets in worker
-2019-05-23T12:04:48.633Z - normal: Finish building assets
-2019-05-23T12:04:48.649Z - normal: Start building plugin scripts
-2019-05-23T12:04:48.697Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-23T12:04:51.115Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-23T12:04:56.697Z - normal: Initializing...
-
-2019-05-23T12:04:56.716Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:04:57.308Z - normal: Initializing...
-
-2019-05-23T12:04:57.319Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:04:57.525Z - normal: Initializing...
-
-2019-05-23T12:04:57.536Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:04:57.679Z - normal: Initializing...
-
-2019-05-23T12:04:57.687Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:04:57.801Z - normal: Initializing...
-
-2019-05-23T12:04:57.810Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:05:44.198Z - normal: Initializing...
-
-2019-05-23T12:05:44.205Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:04.350Z - normal: Initializing...
-
-2019-05-23T12:06:04.379Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:04.824Z - normal: Initializing...
-
-2019-05-23T12:06:04.844Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:04.845Z - error: 工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:04.898Z - normal: Initializing...
-
-2019-05-23T12:06:04.911Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:04.973Z - normal: Initializing...
-
-2019-05-23T12:06:04.983Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:04.985Z - error: 工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:05.032Z - normal: Initializing...
-
-2019-05-23T12:06:05.043Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:06:05.117Z - normal: Initializing...
-
-2019-05-23T12:06:05.125Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:13:05.907Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-23T12:13:05.921Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-23T12:13:05.922Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-23T12:13:05.924Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-23T12:13:11.675Z - normal: Start building assets
-2019-05-23T12:13:11.676Z - normal: Start spawn build-worker
-2019-05-23T12:13:13.010Z - normal: Finish spawn build-worker
-2019-05-23T12:13:13.020Z - normal: Start init build-worker
-2019-05-23T12:13:19.308Z - normal: Finish init build-worker
-2019-05-23T12:13:19.309Z - normal: Start build-assets in worker
-2019-05-23T12:13:20.811Z - normal: Finish build-assets in worker
-2019-05-23T12:13:20.845Z - normal: Finish building assets
-2019-05-23T12:13:20.863Z - normal: Start building plugin scripts
-2019-05-23T12:13:20.917Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-23T12:13:25.280Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-23T12:13:33.031Z - normal: Initializing...
-
-2019-05-23T12:13:33.052Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-23T12:18:37.965Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-23T12:18:37.973Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-23T12:18:37.973Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-23T12:18:37.975Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-23T12:18:41.933Z - normal: Start building assets
-2019-05-23T12:18:41.933Z - normal: Start spawn build-worker
-2019-05-23T12:18:43.406Z - normal: Finish spawn build-worker
-2019-05-23T12:18:43.406Z - normal: Start init build-worker
-2019-05-23T12:18:48.687Z - normal: Finish init build-worker
-2019-05-23T12:18:48.687Z - normal: Start build-assets in worker
-2019-05-23T12:18:49.428Z - normal: Finish build-assets in worker
-2019-05-23T12:18:49.434Z - normal: Finish building assets
-2019-05-23T12:18:49.450Z - normal: Start building plugin scripts
-2019-05-23T12:18:49.506Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-23T12:18:51.760Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-23T12:22:14.784Z - info: shutdown preview server

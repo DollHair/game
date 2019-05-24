@@ -245,23 +245,23 @@
     "relativePath": "prefab/webview.prefab"
   },
   "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
-    "asset": 1558604383000,
+    "asset": 1558614137000,
     "meta": 1554820683000,
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1558604233000,
+    "asset": 1558613054000,
     "meta": 1554820683000,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1558601286000,
+    "asset": 1558613920000,
     "meta": 1558613819451,
     "relativePath": "Texture"
   },
   "45b4c936-2c34-470e-b93e-773053d08250": {
-    "asset": 1558614133449,
-    "meta": 1558614133550,
+    "asset": 1558702961349,
+    "meta": 1558702961422,
     "relativePath": "Scene/gaming.fire"
   },
   "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1": {
@@ -270,7 +270,7 @@
     "relativePath": "Scene/Main.fire"
   },
   "7bbb347a-fd8c-4212-8ff2-036c8d0bf473": {
-    "asset": 1558604235000,
+    "asset": 1558613056000,
     "meta": 1555824054000,
     "relativePath": "Script/gaming"
   },
@@ -350,12 +350,12 @@
     "relativePath": "Texture/food/food.png"
   },
   "1c8948f2-a2ab-4ade-97b4-51298941108f": {
-    "asset": 1558604499000,
+    "asset": 1558604512000,
     "meta": 1558603547718,
     "relativePath": "resources"
   },
   "34be4a61-eba6-4316-b5a1-38b8ae6f2fe6": {
-    "asset": 1558604499000,
+    "asset": 1558604512000,
     "meta": 1558603641797,
     "relativePath": "resources/assets"
   },
@@ -369,9 +369,19 @@
     "meta": 1558604495613,
     "relativePath": "resources/assets/food.png"
   },
+  "2843b697-ca61-4cc4-a911-560014f738cc": {
+    "asset": 1558702182602,
+    "meta": 1558702182648,
+    "relativePath": "Texture/background/check-circle (1).png"
+  },
+  "3ff1b04a-2ab1-4f63-baa7-67059983e7f5": {
+    "asset": 1558702182603,
+    "meta": 1558702182654,
+    "relativePath": "Texture/background/check-circle.png"
+  },
   "6092e848-c677-4006-9410-3c282c643842": {
-    "asset": 1558613048636,
-    "meta": 1558613055247,
+    "asset": 1558702833806,
+    "meta": 1558702838553,
     "relativePath": "Script/gaming/gamingcontroller.ts"
   }
 }

@@ -18,6 +18,7 @@ var GameoverController = /** @class */ (function (_super) {
     function GameoverController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.viewrs = null;
+        _this.butm = null;
         return _this;
         // update (dt) {}
     }
@@ -28,17 +29,23 @@ var GameoverController = /** @class */ (function (_super) {
     GameoverController.prototype.start = function () {
     };
     GameoverController.prototype.on_restart_bottonclick = function () {
+        cc.audioEngine.playEffect(this.butm, false);
         cc.director.loadScene("Main");
     };
     GameoverController.prototype.on_viewr_buttonclick = function () {
+        cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = true;
     };
     GameoverController.prototype.on_back_buttonclick = function () {
+        cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = false;
     };
     __decorate([
         property(cc.Node)
     ], GameoverController.prototype, "viewrs", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GameoverController.prototype, "butm", void 0);
     GameoverController = __decorate([
         ccclass
     ], GameoverController);

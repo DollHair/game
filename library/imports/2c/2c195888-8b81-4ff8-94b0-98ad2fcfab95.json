@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "叉",
+    "texture": "75f8829a-3978-45aa-80ce-984c542a87c2",
+    "atlas": "",
+    "rect": [
+      48,
+      45,
+      71,
+      78
+    ],
+    "offset": [
+      -6.5,
+      6
+    ],
+    "originalSize": [
+      180,
+      180
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

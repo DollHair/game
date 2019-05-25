@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "配方",
+    "texture": "56088d6b-26f4-4b30-a68d-a650b31e46b6",
+    "atlas": "",
+    "rect": [
+      8,
+      65,
+      183,
+      64
+    ],
+    "offset": [
+      -0.5,
+      3
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

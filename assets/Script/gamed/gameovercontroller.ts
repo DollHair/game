@@ -16,6 +16,10 @@ export default class GameoverController extends cc.Component {
     @property(cc.Node)
     viewrs: cc.Node = null;
 
+    @property(cc.AudioClip)
+    butm: cc.AudioClip = null;
+
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
@@ -27,14 +31,17 @@ export default class GameoverController extends cc.Component {
     }
 
     on_restart_bottonclick(){
+        cc.audioEngine.playEffect(this.butm, false);
         cc.director.loadScene("Main");
     }
     
     on_viewr_buttonclick(){
+        cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = true;
     }
 
     on_back_buttonclick(){
+        cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = false;
     }
 

@@ -1,78 +1,221 @@
-2019-05-24T05:22:43.240Z - normal: Load ~/.CocosCreator/settings.json
-2019-05-24T05:22:43.442Z - normal: Initializing Asset Database
-2019-05-24T05:22:43.449Z - normal: checking language setting...
-2019-05-24T05:22:43.450Z - normal: Language: zh
-2019-05-24T05:22:46.026Z - success: preview server running at http://localhost:7456
-2019-05-24T05:22:46.065Z - success: protocol editor-framework registered
-2019-05-24T05:22:46.066Z - success: protocol app registered
-2019-05-24T05:22:46.066Z - success: protocol theme registered
-2019-05-24T05:22:46.066Z - success: protocol packages registered
-2019-05-24T05:22:46.067Z - success: protocol uuid registerred
-2019-05-24T05:22:46.067Z - success: protocol db registerred
-2019-05-24T05:22:46.067Z - success: protocol thumbnail registerred
-2019-05-24T05:22:46.067Z - success: protocol unpack registerred
-2019-05-24T05:22:46.067Z - success: protocol disable-commonjs registerred
-2019-05-24T05:22:46.220Z - normal: connected!
-2019-05-24T05:22:46.223Z - normal: Check project /Users/BWF/Desktop/minigame/game
-2019-05-24T05:22:46.226Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
-2019-05-24T05:22:48.526Z - normal: Initializing Cocos2d
-2019-05-24T05:22:49.992Z - normal: Initializing engine extends
-2019-05-24T05:22:50.110Z - success: asset-db-debugger loaded
-2019-05-24T05:22:50.118Z - success: color-picker loaded
-2019-05-24T05:22:50.473Z - success: fb-audience-network loaded
-2019-05-24T05:22:50.693Z - success: fb-live-stream loaded
-2019-05-24T05:22:50.708Z - success: google-play-instant loaded
-2019-05-24T05:22:50.727Z - success: huawei-runtime loaded
-2019-05-24T05:22:50.734Z - success: jsb-adapter loaded
-2019-05-24T05:22:50.745Z - success: oppo-runtime loaded
-2019-05-24T05:22:50.770Z - success: package-manager loaded
-2019-05-24T05:22:51.304Z - success: qqplay-adapter loaded
-2019-05-24T05:22:51.312Z - success: runtime-dev-tools loaded
-2019-05-24T05:22:51.339Z - success: sdkbox loaded
-2019-05-24T05:22:51.363Z - success: tester loaded
-2019-05-24T05:22:51.381Z - success: ui-grid loaded
-2019-05-24T05:22:51.401Z - success: ui-kit-preview-extra loaded
-2019-05-24T05:22:51.420Z - success: ui-kit-preview loaded
-2019-05-24T05:22:51.429Z - success: ui-kit loaded
-2019-05-24T05:22:51.445Z - success: ui-tree loaded
-2019-05-24T05:22:51.455Z - success: vivo-runtime loaded
-2019-05-24T05:22:51.459Z - success: weapp-adapter loaded
-2019-05-24T05:22:51.541Z - success: assets loaded
-2019-05-24T05:22:51.556Z - success: builder loaded
-2019-05-24T05:22:52.487Z - success: cocos-services loaded
-2019-05-24T05:22:52.503Z - success: console loaded
-2019-05-24T05:22:52.547Z - success: fb-instant-games loaded
-2019-05-24T05:22:52.549Z - success: google-instant-games loaded
-2019-05-24T05:22:52.571Z - success: hierarchy loaded
-2019-05-24T05:22:52.590Z - success: inspector loaded
-2019-05-24T05:22:52.594Z - success: keystore loaded
-2019-05-24T05:22:52.629Z - success: node-library loaded
-2019-05-24T05:22:52.635Z - success: package-asset loaded
-2019-05-24T05:22:52.641Z - success: preferences loaded
-2019-05-24T05:22:52.657Z - success: project-exporter loaded
-2019-05-24T05:22:52.675Z - success: project-importer loaded
-2019-05-24T05:22:52.713Z - success: project-settings loaded
-2019-05-24T05:22:52.735Z - success: scene loaded
-2019-05-24T05:22:52.740Z - success: simulator-debugger loaded
-2019-05-24T05:22:52.742Z - success: sprite-editor loaded
-2019-05-24T05:22:52.758Z - success: store loaded
-2019-05-24T05:22:52.778Z - success: timeline loaded
-2019-05-24T05:22:55.740Z - normal: Loading packages
-2019-05-24T05:22:55.748Z - normal: Watching packages
-2019-05-24T05:22:55.864Z - info: Cocos Services load base data!
-2019-05-24T05:22:55.910Z - normal: Run Application
-2019-05-24T11:18:54.559Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:12231
-2019-05-24T13:02:20.741Z - error: scene 没有保存，请先保存相关信息再进行构建。
-    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:6807)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2019-05-24T13:02:36.414Z - error: scene 没有保存，请先保存相关信息再进行构建。
-    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:6807)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2019-05-24T13:02:46.108Z - normal: Start building with options : {
+2019-05-25T05:32:53.511Z - normal: Load ~/.CocosCreator/settings.json
+2019-05-25T05:32:53.642Z - normal: Initializing Asset Database
+2019-05-25T05:32:53.650Z - normal: checking language setting...
+2019-05-25T05:32:53.650Z - normal: Language: zh
+2019-05-25T05:32:55.976Z - success: preview server running at http://localhost:7456
+2019-05-25T05:32:56.039Z - success: protocol editor-framework registered
+2019-05-25T05:32:56.039Z - success: protocol app registered
+2019-05-25T05:32:56.039Z - success: protocol theme registered
+2019-05-25T05:32:56.040Z - success: protocol packages registered
+2019-05-25T05:32:56.040Z - success: protocol uuid registerred
+2019-05-25T05:32:56.040Z - success: protocol db registerred
+2019-05-25T05:32:56.040Z - success: protocol thumbnail registerred
+2019-05-25T05:32:56.040Z - success: protocol unpack registerred
+2019-05-25T05:32:56.040Z - success: protocol disable-commonjs registerred
+2019-05-25T05:32:56.499Z - normal: connected!
+2019-05-25T05:32:56.504Z - normal: Check project /Users/BWF/Desktop/minigame/game
+2019-05-25T05:32:56.506Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
+2019-05-25T05:32:57.853Z - normal: Initializing Cocos2d
+2019-05-25T05:32:59.175Z - normal: Initializing engine extends
+2019-05-25T05:32:59.258Z - success: asset-db-debugger loaded
+2019-05-25T05:32:59.262Z - success: color-picker loaded
+2019-05-25T05:32:59.583Z - success: fb-audience-network loaded
+2019-05-25T05:32:59.688Z - success: fb-live-stream loaded
+2019-05-25T05:32:59.697Z - success: google-play-instant loaded
+2019-05-25T05:32:59.717Z - success: huawei-runtime loaded
+2019-05-25T05:32:59.721Z - success: jsb-adapter loaded
+2019-05-25T05:32:59.736Z - success: oppo-runtime loaded
+2019-05-25T05:32:59.773Z - success: package-manager loaded
+2019-05-25T05:33:00.289Z - success: qqplay-adapter loaded
+2019-05-25T05:33:00.301Z - success: runtime-dev-tools loaded
+2019-05-25T05:33:00.323Z - success: sdkbox loaded
+2019-05-25T05:33:00.368Z - success: tester loaded
+2019-05-25T05:33:00.387Z - success: ui-grid loaded
+2019-05-25T05:33:00.404Z - success: ui-kit-preview-extra loaded
+2019-05-25T05:33:00.429Z - success: ui-kit-preview loaded
+2019-05-25T05:33:00.465Z - success: ui-kit loaded
+2019-05-25T05:33:00.485Z - success: ui-tree loaded
+2019-05-25T05:33:00.493Z - success: vivo-runtime loaded
+2019-05-25T05:33:00.496Z - success: weapp-adapter loaded
+2019-05-25T05:33:00.590Z - success: assets loaded
+2019-05-25T05:33:00.604Z - success: builder loaded
+2019-05-25T05:33:01.448Z - success: cocos-services loaded
+2019-05-25T05:33:01.467Z - success: console loaded
+2019-05-25T05:33:01.512Z - success: fb-instant-games loaded
+2019-05-25T05:33:01.513Z - success: google-instant-games loaded
+2019-05-25T05:33:01.536Z - success: hierarchy loaded
+2019-05-25T05:33:01.549Z - success: inspector loaded
+2019-05-25T05:33:01.553Z - success: keystore loaded
+2019-05-25T05:33:01.580Z - success: node-library loaded
+2019-05-25T05:33:01.585Z - success: package-asset loaded
+2019-05-25T05:33:01.589Z - success: preferences loaded
+2019-05-25T05:33:01.602Z - success: project-exporter loaded
+2019-05-25T05:33:01.627Z - success: project-importer loaded
+2019-05-25T05:33:01.638Z - success: project-settings loaded
+2019-05-25T05:33:01.686Z - success: scene loaded
+2019-05-25T05:33:01.694Z - success: simulator-debugger loaded
+2019-05-25T05:33:01.697Z - success: sprite-editor loaded
+2019-05-25T05:33:01.714Z - success: store loaded
+2019-05-25T05:33:01.736Z - success: timeline loaded
+2019-05-25T05:33:04.934Z - normal: Loading packages
+2019-05-25T05:33:04.942Z - normal: Watching packages
+2019-05-25T05:33:05.010Z - info: Cocos Services load base data!
+2019-05-25T05:33:05.134Z - normal: Run Application
+2019-05-25T05:33:13.998Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T05:33:13.999Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T05:33:14.003Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T05:33:14.005Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T05:33:14.009Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T05:33:14.010Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T10:27:30.600Z - warn: The Node referenced by component "cc.ScrollView" is invalid. Detailed information:
+Node path: "Canvas/viewrs"
+
+2019-05-25T10:27:49.804Z - warn: The Node referenced by component "cc.ScrollView" is invalid. Detailed information:
+Node path: "Canvas/viewrs"
+
+2019-05-25T11:26:57.822Z - normal: Label font size can't be shirnked less than 0!
+2019-05-25T11:27:03.382Z - normal: Label font size can't be shirnked less than 0!
+2019-05-25T11:27:09.205Z - normal: Label font size can't be shirnked less than 0!
+2019-05-25T11:36:30.612Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:74421
+2019-05-25T12:23:36.794Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T12:23:36.797Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T12:23:36.808Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T12:23:36.808Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T12:23:36.814Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T12:23:36.814Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T12:38:01.559Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T12:38:01.562Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T12:38:01.566Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T12:38:01.567Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T12:38:01.571Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T12:38:01.572Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T13:16:19.264Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T13:16:19.266Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T13:16:19.270Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T13:16:19.270Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T13:16:19.277Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T13:16:19.277Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T13:47:10.213Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -137,23 +280,23 @@
   "projectName": "demo2",
   "debugBuildWorker": false
 }
-2019-05-24T13:02:46.112Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-24T13:02:46.113Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-24T13:02:46.753Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-24T13:02:51.124Z - normal: Start building assets
-2019-05-24T13:02:51.124Z - normal: Start spawn build-worker
-2019-05-24T13:02:52.088Z - normal: Finish spawn build-worker
-2019-05-24T13:02:52.088Z - normal: Start init build-worker
-2019-05-24T13:02:55.892Z - normal: Finish init build-worker
-2019-05-24T13:02:55.892Z - normal: Start build-assets in worker
-2019-05-24T13:02:56.656Z - normal: Finish build-assets in worker
-2019-05-24T13:02:56.694Z - normal: Finish building assets
-2019-05-24T13:02:56.707Z - normal: Start building plugin scripts
-2019-05-24T13:02:56.752Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-24T13:02:59.628Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-24T13:03:03.671Z - normal: Initializing...
+2019-05-25T13:47:10.220Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T13:47:10.221Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T13:47:10.840Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T13:47:15.584Z - normal: Start building assets
+2019-05-25T13:47:15.585Z - normal: Start spawn build-worker
+2019-05-25T13:47:16.879Z - normal: Finish spawn build-worker
+2019-05-25T13:47:16.880Z - normal: Start init build-worker
+2019-05-25T13:47:20.753Z - normal: Finish init build-worker
+2019-05-25T13:47:20.761Z - normal: Start build-assets in worker
+2019-05-25T13:47:22.014Z - normal: Finish build-assets in worker
+2019-05-25T13:47:22.023Z - normal: Finish building assets
+2019-05-25T13:47:22.053Z - normal: Start building plugin scripts
+2019-05-25T13:47:22.112Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T13:47:27.174Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T13:48:12.188Z - normal: Initializing...
 
-2019-05-24T13:03:03.684Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
+2019-05-25T13:48:12.209Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
 For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
 工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
 详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
@@ -164,3 +307,772 @@ For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtoo
     at readableAddChunk (_stream_readable.js:178:18)
     at Socket.Readable.push (_stream_readable.js:136:10)
     at Pipe.onread (net.js:560:20)
+2019-05-25T13:51:48.257Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T13:51:48.274Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T13:51:48.274Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T13:51:48.278Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T13:51:55.612Z - normal: Start building assets
+2019-05-25T13:51:55.613Z - normal: Start spawn build-worker
+2019-05-25T13:51:57.104Z - normal: Finish spawn build-worker
+2019-05-25T13:51:57.105Z - normal: Start init build-worker
+2019-05-25T13:52:02.512Z - normal: Finish init build-worker
+2019-05-25T13:52:02.514Z - normal: Start build-assets in worker
+2019-05-25T13:52:03.182Z - warn: The referenced asset used in "db://assets/Scene/Main.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/view1/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T13:52:03.993Z - normal: Finish build-assets in worker
+2019-05-25T13:52:04.000Z - normal: Finish building assets
+2019-05-25T13:52:04.030Z - normal: Start building plugin scripts
+2019-05-25T13:52:04.079Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T13:52:07.841Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T13:53:54.531Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T13:53:54.543Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T13:53:54.543Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T13:53:54.545Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T13:54:00.983Z - normal: Start building assets
+2019-05-25T13:54:00.984Z - normal: Start spawn build-worker
+2019-05-25T13:54:01.985Z - normal: Finish spawn build-worker
+2019-05-25T13:54:01.985Z - normal: Start init build-worker
+2019-05-25T13:54:07.117Z - normal: Finish init build-worker
+2019-05-25T13:54:07.117Z - normal: Start build-assets in worker
+2019-05-25T13:54:07.618Z - warn: The referenced asset used in "db://assets/Scene/Main.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/view1/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T13:54:08.242Z - normal: Finish build-assets in worker
+2019-05-25T13:54:08.250Z - normal: Finish building assets
+2019-05-25T13:54:08.280Z - normal: Start building plugin scripts
+2019-05-25T13:54:08.330Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T13:54:11.071Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T13:56:37.250Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T13:56:37.254Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T13:56:37.255Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T13:56:37.256Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T13:56:40.033Z - normal: Start building assets
+2019-05-25T13:56:40.033Z - normal: Start spawn build-worker
+2019-05-25T13:56:41.012Z - normal: Finish spawn build-worker
+2019-05-25T13:56:41.013Z - normal: Start init build-worker
+2019-05-25T13:56:44.887Z - normal: Finish init build-worker
+2019-05-25T13:56:44.888Z - normal: Start build-assets in worker
+2019-05-25T13:56:45.299Z - warn: The referenced asset used in "db://assets/Scene/Main.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/view1/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T13:56:45.943Z - normal: Finish build-assets in worker
+2019-05-25T13:56:45.952Z - normal: Finish building assets
+2019-05-25T13:56:45.977Z - normal: Start building plugin scripts
+2019-05-25T13:56:46.020Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T13:56:48.434Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T14:10:16.384Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T14:10:16.391Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T14:10:16.391Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T14:10:16.393Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T14:10:19.387Z - normal: Start building assets
+2019-05-25T14:10:19.387Z - normal: Start spawn build-worker
+2019-05-25T14:10:20.558Z - normal: Finish spawn build-worker
+2019-05-25T14:10:20.559Z - normal: Start init build-worker
+2019-05-25T14:10:24.693Z - normal: Finish init build-worker
+2019-05-25T14:10:24.694Z - normal: Start build-assets in worker
+2019-05-25T14:10:25.162Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/again/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T14:10:25.629Z - normal: Finish build-assets in worker
+2019-05-25T14:10:25.642Z - normal: Finish building assets
+2019-05-25T14:10:25.663Z - normal: Start building plugin scripts
+2019-05-25T14:10:25.711Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T14:10:28.304Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T14:14:46.846Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/x"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.850Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/datal"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.851Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/backg/score"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.851Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/backg/data"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.852Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/title/title"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.853Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/conf/Label"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.853Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/tipsv/view/content/title"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.854Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/tipsv/view/content/it1l"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.854Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/tipsv/view/content/it2l"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.855Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/tipsv/view/content/it3l"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.855Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/tipsv/view/content/it4l"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.857Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/homev/ask"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.859Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/rolev/view/content/title"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.859Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/rolev/view/content/roletxt"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.861Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/falsev/ask"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:14:46.861Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
+Node path: "Canvas/falsev/result"
+Asset url: "db://assets/Scene/gaming.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T14:15:55.689Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:15:55.692Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:15:55.702Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:15:55.702Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:15:55.711Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:15:55.712Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:16:19.484Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T14:16:19.491Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T14:16:19.492Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T14:16:19.494Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T14:16:23.130Z - normal: Start building assets
+2019-05-25T14:16:23.130Z - normal: Start spawn build-worker
+2019-05-25T14:16:24.091Z - normal: Finish spawn build-worker
+2019-05-25T14:16:24.091Z - normal: Start init build-worker
+2019-05-25T14:16:29.269Z - normal: Finish init build-worker
+2019-05-25T14:16:29.269Z - normal: Start build-assets in worker
+2019-05-25T14:16:29.854Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/again/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T14:16:30.467Z - normal: Finish build-assets in worker
+2019-05-25T14:16:30.475Z - normal: Finish building assets
+2019-05-25T14:16:30.500Z - normal: Start building plugin scripts
+2019-05-25T14:16:30.553Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T14:16:33.430Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T14:18:51.159Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:18:51.163Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:18:51.177Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:18:51.178Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:18:51.189Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:18:51.190Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:18:57.283Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T14:18:57.288Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T14:18:57.288Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T14:18:57.291Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T14:19:01.165Z - normal: Start building assets
+2019-05-25T14:19:01.166Z - normal: Start spawn build-worker
+2019-05-25T14:19:02.579Z - normal: Finish spawn build-worker
+2019-05-25T14:19:02.579Z - normal: Start init build-worker
+2019-05-25T14:19:08.307Z - normal: Finish init build-worker
+2019-05-25T14:19:08.308Z - normal: Start build-assets in worker
+2019-05-25T14:19:08.924Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/again/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T14:19:09.533Z - normal: Finish build-assets in worker
+2019-05-25T14:19:09.539Z - normal: Finish building assets
+2019-05-25T14:19:09.567Z - normal: Start building plugin scripts
+2019-05-25T14:19:09.616Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T14:19:14.638Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
+2019-05-25T14:20:25.716Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:20:25.719Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:20:25.719Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:20:25.720Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:20:25.725Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T14:20:25.725Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T14:21:05.071Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "debug": false,
+  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+    "45b4c936-2c34-470e-b93e-773053d08250",
+    "25036189-6603-4c17-a3c9-454ce44ed824"
+  ],
+  "sourceMaps": false,
+  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
+  "template": "link",
+  "title": "demo2",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wxcd216ab95f30d701",
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "bf314614-b48f-44",
+  "zipCompressJs": true,
+  "project": "/Users/BWF/Desktop/minigame/game",
+  "projectName": "demo2",
+  "debugBuildWorker": false
+}
+2019-05-25T14:21:05.074Z - normal: Building /Users/BWF/Desktop/minigame/game
+2019-05-25T14:21:05.074Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
+2019-05-25T14:21:05.077Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
+2019-05-25T14:21:08.396Z - normal: Start building assets
+2019-05-25T14:21:08.396Z - normal: Start spawn build-worker
+2019-05-25T14:21:09.309Z - normal: Finish spawn build-worker
+2019-05-25T14:21:09.309Z - normal: Start init build-worker
+2019-05-25T14:21:13.118Z - normal: Finish init build-worker
+2019-05-25T14:21:13.118Z - normal: Start build-assets in worker
+2019-05-25T14:21:13.666Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
+Node path: "Canvas/again/Label"
+Used in Component: "cc.Label"
+uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+2019-05-25T14:21:14.111Z - normal: Finish build-assets in worker
+2019-05-25T14:21:14.117Z - normal: Finish building assets
+2019-05-25T14:21:14.139Z - normal: Start building plugin scripts
+2019-05-25T14:21:14.199Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T14:21:17.376Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully

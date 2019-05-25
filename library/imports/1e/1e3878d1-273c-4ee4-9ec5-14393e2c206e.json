@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "木耳",
+    "texture": "a7459c5e-5237-42f6-b4f9-ba20e80b3069",
+    "atlas": "60334312-6fd5-4c85-ae45-e8dca4d75e5c",
+    "rect": [
+      0,
+      0,
+      150,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

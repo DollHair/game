@@ -20,6 +20,7 @@ var MainController = /** @class */ (function (_super) {
         _this.view1s = null;
         _this.view2s = null;
         _this.view3s = null;
+        _this.butm = null;
         return _this;
         // update (dt) {}
     }
@@ -32,27 +33,32 @@ var MainController = /** @class */ (function (_super) {
     MainController.prototype.start = function () {
     };
     MainController.prototype.on_start_buttonclick = function () {
+        cc.audioEngine.playEffect(this.butm, false);
         cc.director.loadScene("gaming");
     };
     MainController.prototype.on_view1_buttonclick = function () {
         this.view1s.active = true;
         this.view2s.active = false;
         this.view3s.active = false;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     MainController.prototype.on_view2_buttonclick = function () {
         this.view1s.active = false;
         this.view2s.active = true;
         this.view3s.active = false;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     MainController.prototype.on_view3_buttonclick = function () {
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = true;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     MainController.prototype.on_back_buttonclick = function () {
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = false;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     __decorate([
         property(cc.Node)
@@ -63,6 +69,9 @@ var MainController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], MainController.prototype, "view3s", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], MainController.prototype, "butm", void 0);
     MainController = __decorate([
         ccclass
     ], MainController);

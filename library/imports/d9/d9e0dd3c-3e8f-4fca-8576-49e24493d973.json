@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "螺蛳粉另1",
+    "texture": "3b0c4cfb-59b1-4470-af57-1e435e145141",
+    "atlas": "",
+    "rect": [
+      101,
+      86,
+      302,
+      313
+    ],
+    "offset": [
+      2,
+      7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

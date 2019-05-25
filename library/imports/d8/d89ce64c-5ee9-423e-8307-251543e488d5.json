@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "生命",
+    "texture": "181f38fa-c609-49b9-995e-2cfd4f2d96b1",
+    "atlas": "",
+    "rect": [
+      66,
+      61,
+      56,
+      49
+    ],
+    "offset": [
+      4,
+      4.5
+    ],
+    "originalSize": [
+      180,
+      180
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

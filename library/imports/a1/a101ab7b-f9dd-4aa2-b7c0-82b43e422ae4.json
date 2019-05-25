@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "气泡",
+    "texture": "2107fcb1-9996-4b45-8df2-bc6f23a969b0",
+    "atlas": "",
+    "rect": [
+      27,
+      64,
+      458,
+      384
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

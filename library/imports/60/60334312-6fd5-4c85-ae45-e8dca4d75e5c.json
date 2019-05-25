@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "food2.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "木耳": {
+      "__uuid__": "1e3878d1-273c-4ee4-9ec5-14393e2c206e"
+    },
+    "腐竹": {
+      "__uuid__": "5f4ed672-8eaa-4c94-9dea-5b5ee060b8da"
+    },
+    "螺蛳": {
+      "__uuid__": "5f9a4a6a-5272-4593-92b0-976ef499d518"
+    },
+    "酸笋": {
+      "__uuid__": "bbdff807-3742-4335-9bf5-123d3664a986"
+    }
+  }
+}

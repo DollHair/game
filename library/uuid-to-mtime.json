@@ -245,62 +245,52 @@
     "relativePath": "prefab/webview.prefab"
   },
   "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
-    "asset": 1558614137000,
+    "asset": 1558759926000,
     "meta": 1554820683000,
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1558613054000,
+    "asset": 1558759889000,
     "meta": 1554820683000,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1558613920000,
-    "meta": 1558613819451,
+    "asset": 1558792307000,
+    "meta": 1558792491904,
     "relativePath": "Texture"
   },
   "45b4c936-2c34-470e-b93e-773053d08250": {
-    "asset": 1558702961349,
-    "meta": 1558702961422,
+    "asset": 1558794061559,
+    "meta": 1558794061577,
     "relativePath": "Scene/gaming.fire"
   },
   "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1": {
-    "asset": 1558612273180,
-    "meta": 1558612273216,
+    "asset": 1558793408463,
+    "meta": 1558793408479,
     "relativePath": "Scene/Main.fire"
   },
   "7bbb347a-fd8c-4212-8ff2-036c8d0bf473": {
-    "asset": 1558613056000,
+    "asset": 1558759776000,
     "meta": 1555824054000,
     "relativePath": "Script/gaming"
   },
   "f25697b2-9f8b-411e-bdce-c1c74c053ad9": {
-    "asset": 1558586885000,
+    "asset": 1558759889000,
     "meta": 1555824067000,
     "relativePath": "Script/gamed"
   },
   "479bb844-8478-4fa8-a85a-5dd02ac6bca2": {
-    "asset": 1558586558283,
+    "asset": 1558759839000,
     "meta": 1555824075000,
     "relativePath": "Script/gamemain"
   },
   "25036189-6603-4c17-a3c9-454ce44ed824": {
-    "asset": 1558612294549,
-    "meta": 1558612294561,
+    "asset": 1558789948323,
+    "meta": 1558789948350,
     "relativePath": "Scene/gameover.fire"
   },
-  "ca0d615c-35d6-48cb-bc4c-b0af510a2a42": {
-    "asset": 1555835054000,
-    "meta": 1558586797971,
-    "relativePath": "Script/gamed/gameovercontroller.ts"
-  },
-  "2c387008-9e9c-4111-b2b1-460789de6801": {
-    "asset": 1555835038000,
-    "meta": 1558586798154,
-    "relativePath": "Script/gamemain/maincontroller.ts"
-  },
   "90c6aace-cbf7-4c62-b51a-bdf3d68c18f1": {
-    "asset": 1558601261000,
+    "asset": 1558715606000,
     "meta": 1555900738000,
     "relativePath": "Texture/background"
   },
@@ -314,30 +304,10 @@
     "meta": 1558586798675,
     "relativePath": "Texture/background/餐桌.jpg"
   },
-  "237f2594-a435-4706-858c-ab8ab2c13307": {
-    "asset": 1558601254000,
-    "meta": 1558613912199,
-    "relativePath": "Texture/font"
-  },
-  "1bb2a1c6-b19e-4687-8403-258e8e6fad4d": {
-    "asset": 1558588130101,
-    "meta": 1558588130125,
-    "relativePath": "Texture/font/本墨悠圆.ttf"
-  },
   "d7d5f7b5-760a-435b-a8ec-87dd10cace83": {
     "asset": 1558588530115,
     "meta": 1558588530184,
     "relativePath": "Texture/background/logo.png"
-  },
-  "ca3f95f3-49e0-4613-bf91-82a98446e9c8": {
-    "asset": 1558591536494,
-    "meta": 1558591536537,
-    "relativePath": "Texture/background/主页.png"
-  },
-  "27da0275-0d49-4e85-8967-b0c9232bcad9": {
-    "asset": 1558591536493,
-    "meta": 1558591536541,
-    "relativePath": "Texture/background/订单.png"
   },
   "d5d9e945-14e4-48ec-8bde-b7a900bd7dc5": {
     "asset": 1558600530081,
@@ -350,12 +320,12 @@
     "relativePath": "Texture/food/food.png"
   },
   "1c8948f2-a2ab-4ade-97b4-51298941108f": {
-    "asset": 1558604512000,
+    "asset": 1558710954000,
     "meta": 1558603547718,
     "relativePath": "resources"
   },
   "34be4a61-eba6-4316-b5a1-38b8ae6f2fe6": {
-    "asset": 1558604512000,
+    "asset": 1558710954000,
     "meta": 1558603641797,
     "relativePath": "resources/assets"
   },
@@ -379,9 +349,139 @@
     "meta": 1558702182654,
     "relativePath": "Texture/background/check-circle.png"
   },
+  "3b0c4cfb-59b1-4470-af57-1e435e145141": {
+    "asset": 1558707832898,
+    "meta": 1558707832983,
+    "relativePath": "Texture/background/螺蛳粉另1.png"
+  },
+  "60334312-6fd5-4c85-ae45-e8dca4d75e5c": {
+    "asset": 1558710926970,
+    "meta": 1558710934165,
+    "relativePath": "resources/assets/food2.plist"
+  },
+  "a7459c5e-5237-42f6-b4f9-ba20e80b3069": {
+    "asset": 1558710926967,
+    "meta": 1558710934140,
+    "relativePath": "resources/assets/food2.png"
+  },
+  "cd6fcc0a-be97-4398-97ce-002b9a3ee436": {
+    "asset": 1558715589072,
+    "meta": 1558715589142,
+    "relativePath": "Texture/background/正确.jpg"
+  },
+  "a9765217-e750-4b39-b483-b84a4f99d68f": {
+    "asset": 1558715589071,
+    "meta": 1558715589148,
+    "relativePath": "Texture/background/失败.jpg"
+  },
+  "0e2e1d44-85ab-46ba-a7c0-b61e0d6858e9": {
+    "asset": 1558758269634,
+    "meta": 1558758269670,
+    "relativePath": "Texture/music/按钮点击.mp3"
+  },
+  "ad9cca84-7902-44a8-814b-e221698833ec": {
+    "asset": 1558758269643,
+    "meta": 1558758269676,
+    "relativePath": "Texture/music/背景音乐.mp3"
+  },
+  "38695731-5ce6-456f-bf49-6c65ecc99e3c": {
+    "asset": 1558758295000,
+    "meta": 1558758278745,
+    "relativePath": "Texture/music"
+  },
+  "ca0d615c-35d6-48cb-bc4c-b0af510a2a42": {
+    "asset": 1558759871625,
+    "meta": 1558759877473,
+    "relativePath": "Script/gamed/gameovercontroller.ts"
+  },
+  "2c387008-9e9c-4111-b2b1-460789de6801": {
+    "asset": 1558759827835,
+    "meta": 1558759877561,
+    "relativePath": "Script/gamemain/maincontroller.ts"
+  },
+  "a9221556-2af4-4405-855e-04b6de82e800": {
+    "asset": 1558777832778,
+    "meta": 1558777832973,
+    "relativePath": "Texture/background/勾.png"
+  },
+  "75f8829a-3978-45aa-80ce-984c542a87c2": {
+    "asset": 1558777832778,
+    "meta": 1558777832982,
+    "relativePath": "Texture/background/叉.png"
+  },
+  "5c19863b-fa9f-458f-a179-051224d04b31": {
+    "asset": 1558777832778,
+    "meta": 1558777833035,
+    "relativePath": "Texture/background/结束弹窗.png"
+  },
+  "a3e29f20-0f67-4f21-b93e-1eefdec2b0d4": {
+    "asset": 1558777832778,
+    "meta": 1558777833040,
+    "relativePath": "Texture/background/规则.png"
+  },
+  "43242bba-8d14-41ff-9732-2ccd8e1787c8": {
+    "asset": 1558777832779,
+    "meta": 1558777833082,
+    "relativePath": "Texture/background/暂停.png"
+  },
+  "3f76c3ea-0055-4b08-8932-4e5be9632633": {
+    "asset": 1558777832779,
+    "meta": 1558777833083,
+    "relativePath": "Texture/background/提示.png"
+  },
+  "56088d6b-26f4-4b30-a68d-a650b31e46b6": {
+    "asset": 1558777832785,
+    "meta": 1558777833110,
+    "relativePath": "Texture/background/配方.png"
+  },
+  "a5ef9c74-0b06-4ef0-95f3-61e336bef9db": {
+    "asset": 1558777832779,
+    "meta": 1558777833143,
+    "relativePath": "Texture/background/做好.png"
+  },
+  "75d68dcb-2392-4606-a9c5-301e1e9f96ff": {
+    "asset": 1558777832785,
+    "meta": 1558777833158,
+    "relativePath": "Texture/background/开始.png"
+  },
+  "181f38fa-c609-49b9-995e-2cfd4f2d96b1": {
+    "asset": 1558784719850,
+    "meta": 1558784719908,
+    "relativePath": "Texture/background/生命.png"
+  },
+  "2107fcb1-9996-4b45-8df2-bc6f23a969b0": {
+    "asset": 1558786607262,
+    "meta": 1558786607320,
+    "relativePath": "Texture/background/气泡.png"
+  },
+  "edf4e2b7-5c96-4957-a3f2-6b33741bdc46": {
+    "asset": 1558789865784,
+    "meta": 1558789865845,
+    "relativePath": "Texture/background/结束.png"
+  },
+  "2da35fe3-30ca-4455-9614-ae8ee823befe": {
+    "asset": 1558792603000,
+    "meta": 1558792663098,
+    "relativePath": "Texture/pic"
+  },
+  "c7532d45-f3fa-4daa-89a9-8035759e8a5f": {
+    "asset": 1558792947147,
+    "meta": 1558792947214,
+    "relativePath": "Texture/pic/1.1.png"
+  },
+  "9c7b3100-0469-4b9c-b7b7-e30d809badd0": {
+    "asset": 1558793343037,
+    "meta": 1558793343131,
+    "relativePath": "Texture/pic/2.1.png"
+  },
+  "dbd73653-02ee-466f-a771-364befc9b0ec": {
+    "asset": 1558793343037,
+    "meta": 1558793343132,
+    "relativePath": "Texture/pic/3.1.png"
+  },
   "6092e848-c677-4006-9410-3c282c643842": {
-    "asset": 1558702833806,
-    "meta": 1558702838553,
+    "asset": 1558794023464,
+    "meta": 1558794025135,
     "relativePath": "Script/gaming/gamingcontroller.ts"
   }
 }

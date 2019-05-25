@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "结束弹窗",
+    "texture": "5c19863b-fa9f-458f-a179-051224d04b31",
+    "atlas": "",
+    "rect": [
+      50,
+      70,
+      359,
+      211
+    ],
+    "offset": [
+      2.5,
+      -5.5
+    ],
+    "originalSize": [
+      454,
+      340
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

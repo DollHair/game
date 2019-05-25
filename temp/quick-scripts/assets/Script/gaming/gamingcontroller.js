@@ -13,15 +13,17 @@ cc._RF.push(module, '6092ehIxndABpQQPCgsZDhC', 'gamingcontroller', __filename);
 //  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var dic = { 1: '草莓', 2: '寿司', 3: '布丁', 4: '甜甜圈', 5: '披萨', 6: '棒冰', 7: '饼干' };
-var dic2 = { 草莓: 1, 寿司: 2, 布丁: 3, 甜甜圈: 4, 披萨: 5, 棒冰: 6, 饼干: 7 };
+//var dic = {1:'草莓',2:'寿司',3:'布丁',4:'甜甜圈',5:'披萨',6:'棒冰',7:'饼干'};
+//var dic2 = {草莓:1,寿司:2,布丁:3,甜甜圈:4,披萨:5,棒冰:6,饼干:7};
+var dic = { 1: '腐竹', 2: '螺蛳', 3: '酸笋', 4: '木耳' };
+var dic2 = { 腐竹: 1, 螺蛳: 2, 酸笋: 3, 木耳: 4 };
 var GamingController = /** @class */ (function (_super) {
     __extends(GamingController, _super);
     function GamingController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.bg = null;
         _this.tipsv = null;
         _this.homev = null;
+        _this.rolev = null;
         _this.falsev = null;
         _this.node1 = null;
         _this.node2 = null;
@@ -37,6 +39,8 @@ var GamingController = /** @class */ (function (_super) {
         _this.nodec1a = null;
         _this.nodec2a = null;
         _this.nodec3a = null;
+        _this.nodef = null;
+        _this.nodet = null;
         _this.nodes1 = null;
         _this.nodes2 = null;
         _this.nodes3 = null;
@@ -47,6 +51,7 @@ var GamingController = /** @class */ (function (_super) {
         _this.nodeas4 = null;
         _this.tips = null;
         _this.home = null;
+        _this.role = null;
         _this.conf = null;
         _this.nodeb1 = null;
         _this.nodeb2 = null;
@@ -54,11 +59,15 @@ var GamingController = /** @class */ (function (_super) {
         _this.nodeb4 = null;
         _this.title1 = null;
         _this.data = null;
+        _this.datal = null;
+        _this.result = null;
+        _this.butm = null;
         _this.score = 0;
         _this.stop = 0;
         _this.flag = 0;
         _this.count = 0;
         _this.flag2 = 0;
+        _this.life = 0;
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -69,8 +78,10 @@ var GamingController = /** @class */ (function (_super) {
         this.flag = 1;
         this.count = 0;
         this.flag2 = 0;
+        this.life = 3;
         this.tipsv.active = false;
         this.homev.active = false;
+        this.rolev.active = false;
         this.falsev.active = false;
         this.nodea1.active = false;
         this.nodea2.active = false;
@@ -79,6 +90,10 @@ var GamingController = /** @class */ (function (_super) {
         this.nodec1a.active = false;
         this.nodec2a.active = false;
         this.nodec3a.active = false;
+        this.nodet.active = false;
+        this.nodet.scale = 0;
+        this.nodef.active = false;
+        this.nodef.scale = 0;
         this.randsprite(this.nodes1);
         this.randsprite(this.nodes2);
         this.randsprite(this.nodes3);
@@ -86,6 +101,7 @@ var GamingController = /** @class */ (function (_super) {
         this.initstringtitle();
     };
     GamingController.prototype.update = function (dt) {
+        this.datal.string = String(this.life);
         this.data.string = String(this.score);
         this.move(this.node1, this.nodes1);
         this.move(this.node2, this.nodes2);
@@ -126,13 +142,13 @@ var GamingController = /** @class */ (function (_super) {
     };
     GamingController.prototype.randsprite = function (sp) {
         var t1 = this.randomtitle();
-        cc.loader.loadRes("assets/food", cc.SpriteAtlas, function (err, atlas) {
+        cc.loader.loadRes("assets/food2", cc.SpriteAtlas, function (err, atlas) {
             var frame = atlas.getSpriteFrame(dic[t1]);
             sp.spriteFrame = frame;
         });
     };
     GamingController.prototype.randomtitle = function () {
-        var t = Math.ceil(Math.random() * 7);
+        var t = Math.ceil(Math.random() * 4);
         /*let t1 = new String();
         switch(t){
             case 1: t1 = '草莓';break;
@@ -177,7 +193,7 @@ var GamingController = /** @class */ (function (_super) {
             t2 = this.randomtitle();
         while (t1 == t3 || t2 == t3)
             t3 = this.randomtitle();
-        var tall = "老板来" + dic[t1] + "," + dic[t2] + "," + dic[t3] + "!";
+        var tall = "老板来一份螺蛳粉！\n(还差:" + dic[t1] + "," + dic[t2] + "," + dic[t3] + ")";
         this.flag = t1 + t2 + t3;
         this.title1.string = tall;
     };
@@ -185,6 +201,7 @@ var GamingController = /** @class */ (function (_super) {
         this.home.interactable = true;
         this.tips.interactable = true;
         this.conf.interactable = true;
+        this.role.interactable = true;
         this.nodeb1.interactable = true;
         this.nodeb2.interactable = true;
         this.nodeb3.interactable = true;
@@ -194,6 +211,7 @@ var GamingController = /** @class */ (function (_super) {
         this.home.interactable = false;
         this.tips.interactable = false;
         this.conf.interactable = false;
+        this.role.interactable = false;
         this.nodeb1.interactable = false;
         this.nodeb2.interactable = false;
         this.nodeb3.interactable = false;
@@ -203,24 +221,41 @@ var GamingController = /** @class */ (function (_super) {
         this.tipsv.active = true;
         this.setbuttonfalse();
         this.stop = 1;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbuttontipsback = function () {
         this.tipsv.active = false;
         this.setbuttontrue();
         this.stop = 0;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbuttonhome = function () {
         this.homev.active = true;
         this.setbuttonfalse();
         this.stop = 1;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbuttonhomeyes = function () {
         this.homev.active = false;
         this.setbuttontrue();
         this.stop = 0;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbuttonhomeno = function () {
+        cc.audioEngine.playEffect(this.butm, false);
         this.gameover();
+    };
+    GamingController.prototype.onbuttonrole = function () {
+        this.rolev.active = true;
+        this.setbuttonfalse();
+        this.stop = 1;
+        cc.audioEngine.playEffect(this.butm, false);
+    };
+    GamingController.prototype.onbuttonroleback = function () {
+        this.rolev.active = false;
+        this.setbuttontrue();
+        this.stop = 0;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbutton1 = function () {
         this.touchactionS(this.node1, this.nodes1, this.nodea1, this.nodeas1);
@@ -228,6 +263,7 @@ var GamingController = /** @class */ (function (_super) {
         var s = dic2[t];
         this.count += s;
         this.flag2 += 1;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbutton2 = function () {
         this.touchactionS(this.node2, this.nodes2, this.nodea2, this.nodeas2);
@@ -235,6 +271,7 @@ var GamingController = /** @class */ (function (_super) {
         var s = dic2[t];
         this.count += s;
         this.flag2 += 1;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbutton3 = function () {
         this.touchactionS(this.node3, this.nodes3, this.nodea3, this.nodeas3);
@@ -242,6 +279,7 @@ var GamingController = /** @class */ (function (_super) {
         var s = dic2[t];
         this.count += s;
         this.flag2 += 1;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbutton4 = function () {
         this.touchactionS(this.node4, this.nodes4, this.nodea4, this.nodeas4);
@@ -249,9 +287,10 @@ var GamingController = /** @class */ (function (_super) {
         var s = dic2[t];
         this.count += s;
         this.flag2 += 1;
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.touchaction = function (nodea) {
-        var action = cc.moveTo(1, -9, -77);
+        var action = cc.spawn(cc.moveTo(1, -5, -83), cc.scaleTo(1, 0.1, 0.1));
         nodea.runAction(action);
     };
     GamingController.prototype.touchactionS = function (node, nodes, nodea, nodeas) {
@@ -260,7 +299,19 @@ var GamingController = /** @class */ (function (_super) {
         nodeas.spriteFrame = nodes.spriteFrame;
         nodea.active = true;
         this.touchaction(nodea);
-        this.scheduleOnce(function () { nodea.active = false; }, 1.2);
+        this.scheduleOnce(function () {
+            nodea.active = false;
+            nodea.scale = 1;
+        }, 1.2);
+    };
+    GamingController.prototype.touchactionc = function (node) {
+        node.active = true;
+        var action = cc.scaleTo(1, 1, 1);
+        node.runAction(action);
+        this.scheduleOnce(function () {
+            node.active = false;
+            node.scale = 0;
+        }, 1.2);
     };
     GamingController.prototype.onbuttonconfirm = function () {
         if (this.count == this.flag) {
@@ -268,23 +319,28 @@ var GamingController = /** @class */ (function (_super) {
             this.flag = 0;
             this.count = 0;
             this.flag2 = 0;
+            this.touchactionc(this.nodet);
             this.initstringtitle();
         }
         else {
-            this.score -= 5;
+            this.life -= 1;
             this.flag = 0;
             this.count = 0;
             this.flag2 = 0;
+            if (this.life > 0)
+                this.touchactionc(this.nodef);
             this.initstringtitle();
         }
-        if (this.score < 0) {
-            this.score = 0;
+        if (this.life < 1) {
             this.falsev.active = true;
+            this.result.string = "本次得分为:" + this.score;
             this.setbuttonfalse();
             this.stop = 1;
         }
+        cc.audioEngine.playEffect(this.butm, false);
     };
     GamingController.prototype.onbuttonfalseyes = function () {
+        cc.audioEngine.playEffect(this.butm, false);
         this.gameover();
     };
     GamingController.prototype.gameover = function () {
@@ -292,13 +348,13 @@ var GamingController = /** @class */ (function (_super) {
     };
     __decorate([
         property(cc.Node)
-    ], GamingController.prototype, "bg", void 0);
-    __decorate([
-        property(cc.Node)
     ], GamingController.prototype, "tipsv", void 0);
     __decorate([
         property(cc.Node)
     ], GamingController.prototype, "homev", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "rolev", void 0);
     __decorate([
         property(cc.Node)
     ], GamingController.prototype, "falsev", void 0);
@@ -345,6 +401,12 @@ var GamingController = /** @class */ (function (_super) {
         property(cc.Node)
     ], GamingController.prototype, "nodec3a", void 0);
     __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodef", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamingController.prototype, "nodet", void 0);
+    __decorate([
         property(cc.Sprite)
     ], GamingController.prototype, "nodes1", void 0);
     __decorate([
@@ -376,6 +438,9 @@ var GamingController = /** @class */ (function (_super) {
     ], GamingController.prototype, "home", void 0);
     __decorate([
         property(cc.Button)
+    ], GamingController.prototype, "role", void 0);
+    __decorate([
+        property(cc.Button)
     ], GamingController.prototype, "conf", void 0);
     __decorate([
         property(cc.Button)
@@ -395,6 +460,15 @@ var GamingController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Label)
     ], GamingController.prototype, "data", void 0);
+    __decorate([
+        property(cc.Label)
+    ], GamingController.prototype, "datal", void 0);
+    __decorate([
+        property(cc.Label)
+    ], GamingController.prototype, "result", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamingController.prototype, "butm", void 0);
     GamingController = __decorate([
         ccclass
     ], GamingController);

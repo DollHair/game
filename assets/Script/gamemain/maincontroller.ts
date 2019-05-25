@@ -22,6 +22,9 @@ export default class MainController extends cc.Component {
     @property(cc.Node)
     view3s: cc.Node = null;
 
+    @property(cc.AudioClip)
+    butm: cc.AudioClip = null;
+
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -36,6 +39,7 @@ export default class MainController extends cc.Component {
     }
 
     on_start_buttonclick(){
+        cc.audioEngine.playEffect(this.butm, false);
         cc.director.loadScene("gaming");
     }
     
@@ -43,24 +47,28 @@ export default class MainController extends cc.Component {
         this.view1s.active = true;
         this.view2s.active = false;
         this.view3s.active = false;
+        cc.audioEngine.playEffect(this.butm, false);
     }
 
     on_view2_buttonclick(){
         this.view1s.active = false;
         this.view2s.active = true;
         this.view3s.active = false;
+        cc.audioEngine.playEffect(this.butm, false);
     }
 
     on_view3_buttonclick(){
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = true;
+        cc.audioEngine.playEffect(this.butm, false);
     }
 
     on_back_buttonclick(){
         this.view1s.active = false;
         this.view2s.active = false;
         this.view3s.active = false;
+        cc.audioEngine.playEffect(this.butm, false);
     }
 
 

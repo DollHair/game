@@ -2,10 +2,10 @@ require('libs/weapp-adapter/index');
 var Parser = require('libs/xmldom/dom-parser');
 window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
-require('src/settings.b4b17');
+require('src/settings.20679');
 var settings = window._CCSettings;
 var SubPackPipe = require('./libs/subpackage-pipe');
-require('main.c1f73');
+require('main.e6276');
 require(settings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.d27d2.js');
 require('./libs/engine/index.js');
 

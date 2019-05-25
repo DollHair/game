@@ -78,6 +78,9 @@ export default class GamingController extends cc.Component {
     @property(cc.Node)
     nodet: cc.Node = null;
 
+    @property(cc.Node)
+    nodef2: cc.Node = null;
+
     @property(cc.Sprite)
     nodes1: cc.Sprite = null;
 
@@ -138,6 +141,9 @@ export default class GamingController extends cc.Component {
     @property(cc.Label)
     result: cc.Label = null;
 
+    @property(cc.Label)
+    timec: cc.Label
+
     @property(cc.AudioClip)
     butm: cc.AudioClip = null;
 
@@ -157,6 +163,8 @@ export default class GamingController extends cc.Component {
 
     life: number = 0;
 
+    time: number = 0;
+
 
 
 
@@ -173,6 +181,7 @@ export default class GamingController extends cc.Component {
         this.count = 0;
         this.flag2 = 0;
         this.life = 3;
+        this.time = 20;
         this.tipsv.active = false;
         this.homev.active = false;
         this.rolev.active = false;
@@ -188,16 +197,20 @@ export default class GamingController extends cc.Component {
         this.nodet.scale = 0;
         this.nodef.active = false;
         this.nodef.scale = 0;
+        this.nodef2.active = false;
+        this.nodef2.scale = 0;
         this.randsprite(this.nodes1);
         this.randsprite(this.nodes2);
         this.randsprite(this.nodes3);
         this.randsprite(this.nodes4);
         this.initstringtitle()
+        this.schedule(function(){if(this.stop == 0) this.time -= 1;},1);
     }
 
     update (dt:number) {
         this.datal.string = String(this.life);
         this.data.string = String(this.score);
+        this.timec.string = String(this.time);
         this.move(this.node1,this.nodes1);
         this.move(this.node2,this.nodes2);
         this.move(this.node3,this.nodes3);
@@ -233,6 +246,20 @@ export default class GamingController extends cc.Component {
             this.nodec1a.active = true;
             this.nodec2a.active = true;
             this.nodec3a.active = true;
+        }
+        if(this.time == 0){
+            if(this.life > 1){
+                this.touchactionc(this.nodef2);
+                this.initstringtitle();
+                this.time = 20;
+                this.life -= 1;
+            }
+            else{
+                this.falsev.active = true;
+                this.stop = 1;
+                this.result.string = "本次得分为:"+this.score;
+                this.setbuttonfalse();
+            }
         }
 
 
@@ -294,7 +321,7 @@ export default class GamingController extends cc.Component {
              t2 = this.randomtitle();
          while(t1 == t3 || t2 == t3)
              t3 = this.randomtitle();
-         let tall = "老板来一份螺蛳粉！\n(还差:"+dic[t1]+","+dic[t2]+","+dic[t3]+")";
+         let tall = "老板来一碗螺蛳粉！\n(还差:"+dic[t1]+","+dic[t2]+","+dic[t3]+")";
          this.flag = t1 + t2 + t3;
          this.title1.string = tall;
      }
@@ -435,6 +462,7 @@ export default class GamingController extends cc.Component {
             this.flag = 0;
             this.count = 0;
             this.flag2 = 0;
+            this.time = 20;
             this.touchactionc(this.nodet);
             this.initstringtitle();
         }
@@ -443,6 +471,7 @@ export default class GamingController extends cc.Component {
             this.flag = 0;
             this.count = 0;
             this.flag2 = 0;
+            this.time = 20;
             if(this.life > 0)
                 this.touchactionc(this.nodef);
             this.initstringtitle();

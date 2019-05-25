@@ -1,67 +1,67 @@
-2019-05-25T05:32:53.511Z - normal: Load ~/.CocosCreator/settings.json
-2019-05-25T05:32:53.642Z - normal: Initializing Asset Database
-2019-05-25T05:32:53.650Z - normal: checking language setting...
-2019-05-25T05:32:53.650Z - normal: Language: zh
-2019-05-25T05:32:55.976Z - success: preview server running at http://localhost:7456
-2019-05-25T05:32:56.039Z - success: protocol editor-framework registered
-2019-05-25T05:32:56.039Z - success: protocol app registered
-2019-05-25T05:32:56.039Z - success: protocol theme registered
-2019-05-25T05:32:56.040Z - success: protocol packages registered
-2019-05-25T05:32:56.040Z - success: protocol uuid registerred
-2019-05-25T05:32:56.040Z - success: protocol db registerred
-2019-05-25T05:32:56.040Z - success: protocol thumbnail registerred
-2019-05-25T05:32:56.040Z - success: protocol unpack registerred
-2019-05-25T05:32:56.040Z - success: protocol disable-commonjs registerred
-2019-05-25T05:32:56.499Z - normal: connected!
-2019-05-25T05:32:56.504Z - normal: Check project /Users/BWF/Desktop/minigame/game
-2019-05-25T05:32:56.506Z - normal: Initializing project /Users/BWF/Desktop/minigame/game
-2019-05-25T05:32:57.853Z - normal: Initializing Cocos2d
-2019-05-25T05:32:59.175Z - normal: Initializing engine extends
-2019-05-25T05:32:59.258Z - success: asset-db-debugger loaded
-2019-05-25T05:32:59.262Z - success: color-picker loaded
-2019-05-25T05:32:59.583Z - success: fb-audience-network loaded
-2019-05-25T05:32:59.688Z - success: fb-live-stream loaded
-2019-05-25T05:32:59.697Z - success: google-play-instant loaded
-2019-05-25T05:32:59.717Z - success: huawei-runtime loaded
-2019-05-25T05:32:59.721Z - success: jsb-adapter loaded
-2019-05-25T05:32:59.736Z - success: oppo-runtime loaded
-2019-05-25T05:32:59.773Z - success: package-manager loaded
-2019-05-25T05:33:00.289Z - success: qqplay-adapter loaded
-2019-05-25T05:33:00.301Z - success: runtime-dev-tools loaded
-2019-05-25T05:33:00.323Z - success: sdkbox loaded
-2019-05-25T05:33:00.368Z - success: tester loaded
-2019-05-25T05:33:00.387Z - success: ui-grid loaded
-2019-05-25T05:33:00.404Z - success: ui-kit-preview-extra loaded
-2019-05-25T05:33:00.429Z - success: ui-kit-preview loaded
-2019-05-25T05:33:00.465Z - success: ui-kit loaded
-2019-05-25T05:33:00.485Z - success: ui-tree loaded
-2019-05-25T05:33:00.493Z - success: vivo-runtime loaded
-2019-05-25T05:33:00.496Z - success: weapp-adapter loaded
-2019-05-25T05:33:00.590Z - success: assets loaded
-2019-05-25T05:33:00.604Z - success: builder loaded
-2019-05-25T05:33:01.448Z - success: cocos-services loaded
-2019-05-25T05:33:01.467Z - success: console loaded
-2019-05-25T05:33:01.512Z - success: fb-instant-games loaded
-2019-05-25T05:33:01.513Z - success: google-instant-games loaded
-2019-05-25T05:33:01.536Z - success: hierarchy loaded
-2019-05-25T05:33:01.549Z - success: inspector loaded
-2019-05-25T05:33:01.553Z - success: keystore loaded
-2019-05-25T05:33:01.580Z - success: node-library loaded
-2019-05-25T05:33:01.585Z - success: package-asset loaded
-2019-05-25T05:33:01.589Z - success: preferences loaded
-2019-05-25T05:33:01.602Z - success: project-exporter loaded
-2019-05-25T05:33:01.627Z - success: project-importer loaded
-2019-05-25T05:33:01.638Z - success: project-settings loaded
-2019-05-25T05:33:01.686Z - success: scene loaded
-2019-05-25T05:33:01.694Z - success: simulator-debugger loaded
-2019-05-25T05:33:01.697Z - success: sprite-editor loaded
-2019-05-25T05:33:01.714Z - success: store loaded
-2019-05-25T05:33:01.736Z - success: timeline loaded
-2019-05-25T05:33:04.934Z - normal: Loading packages
-2019-05-25T05:33:04.942Z - normal: Watching packages
-2019-05-25T05:33:05.010Z - info: Cocos Services load base data!
-2019-05-25T05:33:05.134Z - normal: Run Application
-2019-05-25T05:33:13.998Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+2019-05-25T16:29:30.387Z - normal: Load ~/.CocosCreator/settings.json
+2019-05-25T16:29:30.451Z - normal: Initializing Asset Database
+2019-05-25T16:29:30.453Z - normal: checking language setting...
+2019-05-25T16:29:30.454Z - normal: Language: zh
+2019-05-25T16:29:31.146Z - success: preview server running at http://localhost:7456
+2019-05-25T16:29:31.191Z - success: protocol editor-framework registered
+2019-05-25T16:29:31.191Z - success: protocol app registered
+2019-05-25T16:29:31.191Z - success: protocol theme registered
+2019-05-25T16:29:31.192Z - success: protocol packages registered
+2019-05-25T16:29:31.192Z - success: protocol uuid registerred
+2019-05-25T16:29:31.192Z - success: protocol db registerred
+2019-05-25T16:29:31.193Z - success: protocol thumbnail registerred
+2019-05-25T16:29:31.193Z - success: protocol unpack registerred
+2019-05-25T16:29:31.193Z - success: protocol disable-commonjs registerred
+2019-05-25T16:29:31.557Z - normal: connected!
+2019-05-25T16:29:31.559Z - normal: Check project /Users/BWF/Desktop/project/minigame/game
+2019-05-25T16:29:31.562Z - normal: Initializing project /Users/BWF/Desktop/project/minigame/game
+2019-05-25T16:29:32.179Z - normal: Initializing Cocos2d
+2019-05-25T16:29:32.916Z - normal: Initializing engine extends
+2019-05-25T16:29:32.945Z - success: asset-db-debugger loaded
+2019-05-25T16:29:32.946Z - success: color-picker loaded
+2019-05-25T16:29:33.037Z - success: fb-audience-network loaded
+2019-05-25T16:29:33.087Z - success: fb-live-stream loaded
+2019-05-25T16:29:33.090Z - success: google-play-instant loaded
+2019-05-25T16:29:33.094Z - success: huawei-runtime loaded
+2019-05-25T16:29:33.095Z - success: jsb-adapter loaded
+2019-05-25T16:29:33.099Z - success: oppo-runtime loaded
+2019-05-25T16:29:33.110Z - success: package-manager loaded
+2019-05-25T16:29:33.232Z - success: qqplay-adapter loaded
+2019-05-25T16:29:33.234Z - success: runtime-dev-tools loaded
+2019-05-25T16:29:33.245Z - success: sdkbox loaded
+2019-05-25T16:29:33.258Z - success: tester loaded
+2019-05-25T16:29:33.269Z - success: ui-grid loaded
+2019-05-25T16:29:33.281Z - success: ui-kit-preview-extra loaded
+2019-05-25T16:29:33.292Z - success: ui-kit-preview loaded
+2019-05-25T16:29:33.301Z - success: ui-kit loaded
+2019-05-25T16:29:33.312Z - success: ui-tree loaded
+2019-05-25T16:29:33.316Z - success: vivo-runtime loaded
+2019-05-25T16:29:33.318Z - success: weapp-adapter loaded
+2019-05-25T16:29:33.388Z - success: assets loaded
+2019-05-25T16:29:33.398Z - success: builder loaded
+2019-05-25T16:29:33.670Z - success: cocos-services loaded
+2019-05-25T16:29:33.682Z - success: console loaded
+2019-05-25T16:29:33.720Z - success: fb-instant-games loaded
+2019-05-25T16:29:33.722Z - success: google-instant-games loaded
+2019-05-25T16:29:33.746Z - success: hierarchy loaded
+2019-05-25T16:29:33.759Z - success: inspector loaded
+2019-05-25T16:29:33.760Z - success: keystore loaded
+2019-05-25T16:29:33.775Z - success: node-library loaded
+2019-05-25T16:29:33.777Z - success: package-asset loaded
+2019-05-25T16:29:33.779Z - success: preferences loaded
+2019-05-25T16:29:33.788Z - success: project-exporter loaded
+2019-05-25T16:29:33.801Z - success: project-importer loaded
+2019-05-25T16:29:33.812Z - success: project-settings loaded
+2019-05-25T16:29:33.854Z - success: scene loaded
+2019-05-25T16:29:33.857Z - success: simulator-debugger loaded
+2019-05-25T16:29:33.859Z - success: sprite-editor loaded
+2019-05-25T16:29:33.870Z - success: store loaded
+2019-05-25T16:29:33.883Z - success: timeline loaded
+2019-05-25T16:29:35.221Z - normal: Loading packages
+2019-05-25T16:29:35.227Z - normal: Watching packages
+2019-05-25T16:29:35.338Z - normal: Run Application
+2019-05-25T16:29:39.218Z - info: Cocos Services load base data!
+2019-05-25T16:29:41.880Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -72,8 +72,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T05:33:13.999Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T05:33:14.003Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+2019-05-25T16:29:41.881Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:29:41.884Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -84,8 +84,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T05:33:14.005Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T05:33:14.009Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+2019-05-25T16:29:41.886Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:29:41.891Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -96,18 +96,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T05:33:14.010Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T10:27:30.600Z - warn: The Node referenced by component "cc.ScrollView" is invalid. Detailed information:
-Node path: "Canvas/viewrs"
-
-2019-05-25T10:27:49.804Z - warn: The Node referenced by component "cc.ScrollView" is invalid. Detailed information:
-Node path: "Canvas/viewrs"
-
-2019-05-25T11:26:57.822Z - normal: Label font size can't be shirnked less than 0!
-2019-05-25T11:27:03.382Z - normal: Label font size can't be shirnked less than 0!
-2019-05-25T11:27:09.205Z - normal: Label font size can't be shirnked less than 0!
-2019-05-25T11:36:30.612Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:74421
-2019-05-25T12:23:36.794Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+2019-05-25T16:29:41.892Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:36:25.398Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -118,8 +108,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T12:23:36.797Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T12:23:36.808Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+2019-05-25T16:36:25.406Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:36:25.407Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -130,8 +120,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T12:23:36.808Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T12:23:36.814Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+2019-05-25T16:36:25.407Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:36:25.415Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -142,8 +132,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T12:23:36.814Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T12:38:01.559Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+2019-05-25T16:36:25.416Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:39:58.009Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -154,8 +144,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T12:38:01.562Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T12:38:01.566Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+2019-05-25T16:39:58.011Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:39:58.012Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -166,8 +156,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T12:38:01.567Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T12:38:01.571Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+2019-05-25T16:39:58.012Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:39:58.016Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -178,8 +168,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T12:38:01.572Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T13:16:19.264Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+2019-05-25T16:39:58.016Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:41:32.476Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -190,8 +180,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T13:16:19.266Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T13:16:19.270Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+2019-05-25T16:41:32.478Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:41:32.479Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -202,8 +192,16 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T13:16:19.270Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T13:16:19.277Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+2019-05-25T16:41:32.480Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:41:32.490Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:41:32.491Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -214,512 +212,703 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T13:16:19.277Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T13:47:10.213Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T13:47:10.220Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T13:47:10.221Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T13:47:10.840Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T13:47:15.584Z - normal: Start building assets
-2019-05-25T13:47:15.585Z - normal: Start spawn build-worker
-2019-05-25T13:47:16.879Z - normal: Finish spawn build-worker
-2019-05-25T13:47:16.880Z - normal: Start init build-worker
-2019-05-25T13:47:20.753Z - normal: Finish init build-worker
-2019-05-25T13:47:20.761Z - normal: Start build-assets in worker
-2019-05-25T13:47:22.014Z - normal: Finish build-assets in worker
-2019-05-25T13:47:22.023Z - normal: Finish building assets
-2019-05-25T13:47:22.053Z - normal: Start building plugin scripts
-2019-05-25T13:47:22.112Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T13:47:27.174Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T13:48:12.188Z - normal: Initializing...
-
-2019-05-25T13:48:12.209Z - error: IDE service port disabled. To use CLI Call, open IDE -> Settings -> Security Settings, and set Service Port On.
-For more details see: https://developers.weixin.qq.com/miniprogram/en/dev/devtools/cli.html
-工具的服务端口已关闭。要使用命令行调用工具，请打开工具 -> 设置 -> 安全设置，将服务端口开启。
-详细信息: https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html
-
-    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:191:7)
-    at readableAddChunk (_stream_readable.js:178:18)
-    at Socket.Readable.push (_stream_readable.js:136:10)
-    at Pipe.onread (net.js:560:20)
-2019-05-25T13:51:48.257Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T13:51:48.274Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T13:51:48.274Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T13:51:48.278Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T13:51:55.612Z - normal: Start building assets
-2019-05-25T13:51:55.613Z - normal: Start spawn build-worker
-2019-05-25T13:51:57.104Z - normal: Finish spawn build-worker
-2019-05-25T13:51:57.105Z - normal: Start init build-worker
-2019-05-25T13:52:02.512Z - normal: Finish init build-worker
-2019-05-25T13:52:02.514Z - normal: Start build-assets in worker
-2019-05-25T13:52:03.182Z - warn: The referenced asset used in "db://assets/Scene/Main.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/view1/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T13:52:03.993Z - normal: Finish build-assets in worker
-2019-05-25T13:52:04.000Z - normal: Finish building assets
-2019-05-25T13:52:04.030Z - normal: Start building plugin scripts
-2019-05-25T13:52:04.079Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T13:52:07.841Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T13:53:54.531Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T13:53:54.543Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T13:53:54.543Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T13:53:54.545Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T13:54:00.983Z - normal: Start building assets
-2019-05-25T13:54:00.984Z - normal: Start spawn build-worker
-2019-05-25T13:54:01.985Z - normal: Finish spawn build-worker
-2019-05-25T13:54:01.985Z - normal: Start init build-worker
-2019-05-25T13:54:07.117Z - normal: Finish init build-worker
-2019-05-25T13:54:07.117Z - normal: Start build-assets in worker
-2019-05-25T13:54:07.618Z - warn: The referenced asset used in "db://assets/Scene/Main.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/view1/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T13:54:08.242Z - normal: Finish build-assets in worker
-2019-05-25T13:54:08.250Z - normal: Finish building assets
-2019-05-25T13:54:08.280Z - normal: Start building plugin scripts
-2019-05-25T13:54:08.330Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T13:54:11.071Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T13:56:37.250Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T13:56:37.254Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T13:56:37.255Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T13:56:37.256Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T13:56:40.033Z - normal: Start building assets
-2019-05-25T13:56:40.033Z - normal: Start spawn build-worker
-2019-05-25T13:56:41.012Z - normal: Finish spawn build-worker
-2019-05-25T13:56:41.013Z - normal: Start init build-worker
-2019-05-25T13:56:44.887Z - normal: Finish init build-worker
-2019-05-25T13:56:44.888Z - normal: Start build-assets in worker
-2019-05-25T13:56:45.299Z - warn: The referenced asset used in "db://assets/Scene/Main.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/view1/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T13:56:45.943Z - normal: Finish build-assets in worker
-2019-05-25T13:56:45.952Z - normal: Finish building assets
-2019-05-25T13:56:45.977Z - normal: Start building plugin scripts
-2019-05-25T13:56:46.020Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T13:56:48.434Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T14:10:16.384Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T14:10:16.391Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T14:10:16.391Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T14:10:16.393Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T14:10:19.387Z - normal: Start building assets
-2019-05-25T14:10:19.387Z - normal: Start spawn build-worker
-2019-05-25T14:10:20.558Z - normal: Finish spawn build-worker
-2019-05-25T14:10:20.559Z - normal: Start init build-worker
-2019-05-25T14:10:24.693Z - normal: Finish init build-worker
-2019-05-25T14:10:24.694Z - normal: Start build-assets in worker
-2019-05-25T14:10:25.162Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
+2019-05-25T16:41:32.491Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:46:24.542Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:46:24.544Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:46:24.549Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:46:24.549Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:46:24.554Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:46:24.557Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:46:24.557Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:48:09.178Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:48:09.182Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:48:09.184Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:48:09.185Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:48:09.185Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:48:09.186Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:48:09.187Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:49:47.653Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:49:47.657Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:49:47.657Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:49:47.658Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:49:47.659Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:49:47.659Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:49:47.660Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:51:29.456Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:51:29.457Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:51:29.458Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:51:29.458Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:51:29.470Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:51:29.471Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:51:29.471Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:51:59.895Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:51:59.896Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:51:59.899Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:51:59.900Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:51:59.907Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:51:59.907Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:51:59.908Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:54:34.114Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:54:34.116Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:54:34.117Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:54:34.117Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:54:34.124Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:54:34.125Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:54:34.125Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:59:00.533Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:59:00.535Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:59:00.536Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:59:00.536Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T16:59:00.544Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T16:59:00.544Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T16:59:00.544Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:02:36.232Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:02:36.236Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:02:36.237Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:02:36.238Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:02:36.239Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:02:36.241Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:02:36.242Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:04:40.995Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:04:40.997Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:04:40.997Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:04:40.998Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:04:41.001Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:04:41.001Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:04:41.002Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:08:07.929Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:08:07.933Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:08:07.933Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:08:07.934Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:08:07.935Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:08:07.935Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:08:07.935Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:12:27.634Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:12:27.638Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:12:27.638Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:12:27.639Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:12:27.644Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:12:27.645Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:12:27.645Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:13:11.233Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:13:11.234Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:13:11.235Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:13:11.235Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:13:11.238Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:13:11.238Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:13:11.239Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:19:15.704Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:19:15.706Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:19:15.711Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:19:15.711Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:19:15.715Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:19:15.716Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:19:15.716Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:20:24.591Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:20:24.592Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:20:24.593Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:20:24.593Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:20:24.595Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:20:24.595Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:20:24.596Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:22:11.107Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:22:11.109Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:22:11.110Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:22:11.110Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:22:11.113Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:22:11.114Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:22:11.114Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:23:47.413Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
 Node path: "Canvas/again/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T14:10:25.629Z - normal: Finish build-assets in worker
-2019-05-25T14:10:25.642Z - normal: Finish building assets
-2019-05-25T14:10:25.663Z - normal: Start building plugin scripts
-2019-05-25T14:10:25.711Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T14:10:28.304Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T14:14:46.846Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/x"
-Asset url: "db://assets/Scene/gaming.fire"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.850Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/datal"
-Asset url: "db://assets/Scene/gaming.fire"
+2019-05-25T17:23:47.416Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewr/Label"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.851Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/backg/score"
-Asset url: "db://assets/Scene/gaming.fire"
+2019-05-25T17:23:47.418Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/title"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.851Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/backg/data"
-Asset url: "db://assets/Scene/gaming.fire"
+2019-05-25T17:23:47.420Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it1l"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.852Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/title/title"
-Asset url: "db://assets/Scene/gaming.fire"
+2019-05-25T17:23:47.421Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it2l"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.853Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/conf/Label"
-Asset url: "db://assets/Scene/gaming.fire"
+2019-05-25T17:23:47.422Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it3l"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.853Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/tipsv/view/content/title"
-Asset url: "db://assets/Scene/gaming.fire"
+2019-05-25T17:23:47.423Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it4l"
+Asset url: "db://assets/Scene/gameover.fire"
 Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
 
-2019-05-25T14:14:46.854Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/tipsv/view/content/it1l"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.854Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/tipsv/view/content/it2l"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.855Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/tipsv/view/content/it3l"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.855Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/tipsv/view/content/it4l"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.857Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/homev/ask"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.859Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/rolev/view/content/title"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.859Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/rolev/view/content/roletxt"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.861Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/falsev/ask"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:14:46.861Z - warn: The Asset used by component "cc.Label" in scene "gaming.fire" is missing. Detailed information:
-Node path: "Canvas/falsev/result"
-Asset url: "db://assets/Scene/gaming.fire"
-Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-
-2019-05-25T14:15:55.689Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+2019-05-25T17:27:03.091Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -730,8 +919,8 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:15:55.692Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:15:55.702Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+2019-05-25T17:27:03.094Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:27:03.094Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -742,8 +931,16 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:15:55.702Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:15:55.711Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+2019-05-25T17:27:03.095Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:27:03.097Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:27:03.097Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
 properties in CCClass can not be abbreviated if they are of type RawAsset.
 Please use the complete form.
 For example, if the type is Texture2D, the previous definition is:
@@ -754,8 +951,175 @@ Now it should be changed to:
       default: null,     // object's default value is null
     },
 (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:15:55.712Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:16:19.484Z - normal: Start building with options : {
+2019-05-25T17:27:03.098Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:35:54.533Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/again/Label"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:35:54.536Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewr/Label"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:35:54.537Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/title"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:35:54.538Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it1l"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:35:54.538Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it2l"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:35:54.538Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it3l"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:35:54.538Z - warn: The Asset used by component "cc.Label" in scene "gameover.fire" is missing. Detailed information:
+Node path: "Canvas/viewrs/view/content/it4l"
+Asset url: "db://assets/Scene/gameover.fire"
+Missing uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
+
+2019-05-25T17:40:00.152Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:40:00.154Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:40:00.156Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:40:00.157Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:40:00.162Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:40:00.162Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:40:00.162Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:41:17.443Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:41:17.443Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:41:17.444Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:41:17.444Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:41:17.449Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:41:17.450Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:41:17.450Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:42:26.424Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:42:26.426Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:42:26.427Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:42:26.427Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:42:26.434Z - warn: Please specifiy a default value for "GamingController" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 timec
+2019-05-25T17:42:26.434Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    butm: cc.Texture2D,
+Now it should be changed to:
+    butm: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-25T17:42:26.435Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
+2019-05-25T17:44:04.533Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -767,9 +1131,9 @@ Now it should be changed to:
   },
   "apiLevel": "",
   "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
+  "buildPath": "/Users/BWF/Desktop/project/minigame/game/build",
   "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
+  "dest": "/Users/BWF/Desktop/project/minigame/game/build/wechatgame",
   "embedWebDebugger": false,
   "encryptJs": true,
   "excludeScenes": [],
@@ -816,347 +1180,22 @@ Now it should be changed to:
   },
   "xxteaKey": "bf314614-b48f-44",
   "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
+  "project": "/Users/BWF/Desktop/project/minigame/game",
   "projectName": "demo2",
   "debugBuildWorker": false
 }
-2019-05-25T14:16:19.491Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T14:16:19.492Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T14:16:19.494Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T14:16:23.130Z - normal: Start building assets
-2019-05-25T14:16:23.130Z - normal: Start spawn build-worker
-2019-05-25T14:16:24.091Z - normal: Finish spawn build-worker
-2019-05-25T14:16:24.091Z - normal: Start init build-worker
-2019-05-25T14:16:29.269Z - normal: Finish init build-worker
-2019-05-25T14:16:29.269Z - normal: Start build-assets in worker
-2019-05-25T14:16:29.854Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/again/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T14:16:30.467Z - normal: Finish build-assets in worker
-2019-05-25T14:16:30.475Z - normal: Finish building assets
-2019-05-25T14:16:30.500Z - normal: Start building plugin scripts
-2019-05-25T14:16:30.553Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T14:16:33.430Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T14:18:51.159Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
-properties in CCClass can not be abbreviated if they are of type RawAsset.
-Please use the complete form.
-For example, if the type is Texture2D, the previous definition is:
-    butm: cc.Texture2D,
-Now it should be changed to:
-    butm: {
-      type: cc.Texture2D // use 'type:' to define Texture2D object directly
-      default: null,     // object's default value is null
-    },
-(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:18:51.163Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:18:51.177Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
-properties in CCClass can not be abbreviated if they are of type RawAsset.
-Please use the complete form.
-For example, if the type is Texture2D, the previous definition is:
-    butm: cc.Texture2D,
-Now it should be changed to:
-    butm: {
-      type: cc.Texture2D // use 'type:' to define Texture2D object directly
-      default: null,     // object's default value is null
-    },
-(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:18:51.178Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:18:51.189Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
-properties in CCClass can not be abbreviated if they are of type RawAsset.
-Please use the complete form.
-For example, if the type is Texture2D, the previous definition is:
-    butm: cc.Texture2D,
-Now it should be changed to:
-    butm: {
-      type: cc.Texture2D // use 'type:' to define Texture2D object directly
-      default: null,     // object's default value is null
-    },
-(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:18:51.190Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:18:57.283Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T14:18:57.288Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T14:18:57.288Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T14:18:57.291Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T14:19:01.165Z - normal: Start building assets
-2019-05-25T14:19:01.166Z - normal: Start spawn build-worker
-2019-05-25T14:19:02.579Z - normal: Finish spawn build-worker
-2019-05-25T14:19:02.579Z - normal: Start init build-worker
-2019-05-25T14:19:08.307Z - normal: Finish init build-worker
-2019-05-25T14:19:08.308Z - normal: Start build-assets in worker
-2019-05-25T14:19:08.924Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/again/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T14:19:09.533Z - normal: Finish build-assets in worker
-2019-05-25T14:19:09.539Z - normal: Finish building assets
-2019-05-25T14:19:09.567Z - normal: Start building plugin scripts
-2019-05-25T14:19:09.616Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T14:19:14.638Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T14:20:25.716Z - warn: Please change the definition of property 'butm' in class 'GameoverController'. Starting from v1.10,
-properties in CCClass can not be abbreviated if they are of type RawAsset.
-Please use the complete form.
-For example, if the type is Texture2D, the previous definition is:
-    butm: cc.Texture2D,
-Now it should be changed to:
-    butm: {
-      type: cc.Texture2D // use 'type:' to define Texture2D object directly
-      default: null,     // object's default value is null
-    },
-(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:20:25.719Z - warn: The default value of GameoverController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:20:25.719Z - warn: Please change the definition of property 'butm' in class 'MainController'. Starting from v1.10,
-properties in CCClass can not be abbreviated if they are of type RawAsset.
-Please use the complete form.
-For example, if the type is Texture2D, the previous definition is:
-    butm: cc.Texture2D,
-Now it should be changed to:
-    butm: {
-      type: cc.Texture2D // use 'type:' to define Texture2D object directly
-      default: null,     // object's default value is null
-    },
-(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:20:25.720Z - warn: The default value of MainController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:20:25.725Z - warn: Please change the definition of property 'butm' in class 'GamingController'. Starting from v1.10,
-properties in CCClass can not be abbreviated if they are of type RawAsset.
-Please use the complete form.
-For example, if the type is Texture2D, the previous definition is:
-    butm: cc.Texture2D,
-Now it should be changed to:
-    butm: {
-      type: cc.Texture2D // use 'type:' to define Texture2D object directly
-      default: null,     // object's default value is null
-    },
-(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
-2019-05-25T14:20:25.725Z - warn: The default value of GamingController.butm must be an empty string. (changed since 1.8)
-2019-05-25T14:21:05.071Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T14:21:05.074Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T14:21:05.074Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T14:21:05.077Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T14:21:08.396Z - normal: Start building assets
-2019-05-25T14:21:08.396Z - normal: Start spawn build-worker
-2019-05-25T14:21:09.309Z - normal: Finish spawn build-worker
-2019-05-25T14:21:09.309Z - normal: Start init build-worker
-2019-05-25T14:21:13.118Z - normal: Finish init build-worker
-2019-05-25T14:21:13.118Z - normal: Start build-assets in worker
-2019-05-25T14:21:13.666Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/again/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T14:21:14.111Z - normal: Finish build-assets in worker
-2019-05-25T14:21:14.117Z - normal: Finish building assets
-2019-05-25T14:21:14.139Z - normal: Start building plugin scripts
-2019-05-25T14:21:14.199Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T14:21:17.376Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T14:27:33.239Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "buildPath": "/Users/BWF/Desktop/minigame/game/build",
-  "debug": false,
-  "dest": "/Users/BWF/Desktop/minigame/game/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-    "45b4c936-2c34-470e-b93e-773053d08250",
-    "25036189-6603-4c17-a3c9-454ce44ed824"
-  ],
-  "sourceMaps": false,
-  "startScene": "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1",
-  "template": "link",
-  "title": "demo2",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxcd216ab95f30d701",
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "bf314614-b48f-44",
-  "zipCompressJs": true,
-  "project": "/Users/BWF/Desktop/minigame/game",
-  "projectName": "demo2",
-  "debugBuildWorker": false
-}
-2019-05-25T14:27:33.246Z - normal: Building /Users/BWF/Desktop/minigame/game
-2019-05-25T14:27:33.246Z - normal: Destination /Users/BWF/Desktop/minigame/game/build/wechatgame
-2019-05-25T14:27:33.248Z - normal: Delete /Users/BWF/Desktop/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/minigame/game/build/wechatgame/**/*
-2019-05-25T14:27:36.791Z - normal: Start building assets
-2019-05-25T14:27:36.792Z - normal: Start spawn build-worker
-2019-05-25T14:27:37.766Z - normal: Finish spawn build-worker
-2019-05-25T14:27:37.766Z - normal: Start init build-worker
-2019-05-25T14:27:41.506Z - normal: Finish init build-worker
-2019-05-25T14:27:41.506Z - normal: Start build-assets in worker
-2019-05-25T14:27:42.061Z - warn: The referenced asset used in "db://assets/Scene/gameover.fire" is not found, it may have been deleted. Detailed information:
-Node path: "Canvas/again/Label"
-Used in Component: "cc.Label"
-uuid: "1bb2a1c6-b19e-4687-8403-258e8e6fad4d"
-2019-05-25T14:27:42.676Z - normal: Finish build-assets in worker
-2019-05-25T14:27:42.683Z - normal: Finish building assets
-2019-05-25T14:27:42.702Z - normal: Start building plugin scripts
-2019-05-25T14:27:42.755Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-05-25T14:27:46.012Z - normal: Built to "/Users/BWF/Desktop/minigame/game/build/wechatgame" successfully
-2019-05-25T14:32:54.529Z - info: shutdown preview server
+2019-05-25T17:44:04.540Z - normal: Building /Users/BWF/Desktop/project/minigame/game
+2019-05-25T17:44:04.540Z - normal: Destination /Users/BWF/Desktop/project/minigame/game/build/wechatgame
+2019-05-25T17:44:04.843Z - normal: Delete /Users/BWF/Desktop/project/minigame/game/build/wechatgame/subpackages/**/*,/Users/BWF/Desktop/project/minigame/game/build/wechatgame/**/*
+2019-05-25T17:44:08.060Z - normal: Start building assets
+2019-05-25T17:44:08.060Z - normal: Start spawn build-worker
+2019-05-25T17:44:08.886Z - normal: Finish spawn build-worker
+2019-05-25T17:44:08.886Z - normal: Start init build-worker
+2019-05-25T17:44:12.379Z - normal: Finish init build-worker
+2019-05-25T17:44:12.380Z - normal: Start build-assets in worker
+2019-05-25T17:44:13.465Z - normal: Finish build-assets in worker
+2019-05-25T17:44:13.483Z - normal: Finish building assets
+2019-05-25T17:44:13.516Z - normal: Start building plugin scripts
+2019-05-25T17:44:13.563Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-25T17:44:15.760Z - normal: Built to "/Users/BWF/Desktop/project/minigame/game/build/wechatgame" successfully
+2019-05-25T17:46:02.571Z - info: shutdown preview server

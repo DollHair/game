@@ -245,23 +245,23 @@
     "relativePath": "prefab/webview.prefab"
   },
   "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
-    "asset": 1558759926000,
+    "asset": 1558794448000,
     "meta": 1554820683000,
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1558759889000,
+    "asset": 1558794063000,
     "meta": 1554820683000,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1558792307000,
+    "asset": 1558793368000,
     "meta": 1558792491904,
     "relativePath": "Texture"
   },
   "45b4c936-2c34-470e-b93e-773053d08250": {
-    "asset": 1558794435259,
-    "meta": 1558794435309,
+    "asset": 1558805667815,
+    "meta": 1558805667848,
     "relativePath": "Scene/gaming.fire"
   },
   "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1": {
@@ -270,7 +270,7 @@
     "relativePath": "Scene/Main.fire"
   },
   "7bbb347a-fd8c-4212-8ff2-036c8d0bf473": {
-    "asset": 1558759776000,
+    "asset": 1558794063000,
     "meta": 1555824054000,
     "relativePath": "Script/gaming"
   },
@@ -285,12 +285,12 @@
     "relativePath": "Script/gamemain"
   },
   "25036189-6603-4c17-a3c9-454ce44ed824": {
-    "asset": 1558789948323,
-    "meta": 1558789948350,
+    "asset": 1558806187093,
+    "meta": 1558806187112,
     "relativePath": "Scene/gameover.fire"
   },
   "90c6aace-cbf7-4c62-b51a-bdf3d68c18f1": {
-    "asset": 1558715606000,
+    "asset": 1558792591000,
     "meta": 1555900738000,
     "relativePath": "Texture/background"
   },
@@ -460,7 +460,7 @@
     "relativePath": "Texture/background/结束.png"
   },
   "2da35fe3-30ca-4455-9614-ae8ee823befe": {
-    "asset": 1558792603000,
+    "asset": 1558793368000,
     "meta": 1558792663098,
     "relativePath": "Texture/pic"
   },
@@ -479,9 +479,14 @@
     "meta": 1558793343132,
     "relativePath": "Texture/pic/3.1.png"
   },
+  "743b1561-7f45-406c-8914-2c36ece01707": {
+    "asset": 1558803395621,
+    "meta": 1558803395911,
+    "relativePath": "Texture/background/失败2.jpg"
+  },
   "6092e848-c677-4006-9410-3c282c643842": {
-    "asset": 1558794023464,
-    "meta": 1558794025135,
+    "asset": 1558806138772,
+    "meta": 1558806146175,
     "relativePath": "Script/gaming/gamingcontroller.ts"
   }
 }

@@ -285,7 +285,7 @@ export default class GamingController extends cc.Component {
                 wuti.x = wutiX + 11;
             if(this.score >= 80 && this.score < 100)
                 wuti.x = wutiX + 13;
-            if(this.score > 100)
+            if(this.score >= 100)
                 wuti.x = wutiX +15;
         }
         else 

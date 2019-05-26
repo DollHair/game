@@ -5,7 +5,7 @@ require('libs/wx-downloader.js');
 require('src/settings.98200');
 var settings = window._CCSettings;
 var SubPackPipe = require('./libs/subpackage-pipe');
-require('main.85719');
+require('main.eec02');
 require(settings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.d27d2.js');
 require('./libs/engine/index.js');
 

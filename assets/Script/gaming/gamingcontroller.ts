@@ -55,15 +55,6 @@ export default class GamingController extends cc.Component {
     nodea4: cc.Node = null;
 
     @property(cc.Node)
-    nodec1: cc.Node = null;
-
-    @property(cc.Node)
-    nodec2: cc.Node = null;
-
-    @property(cc.Node)
-    nodec3: cc.Node = null;
-
-    @property(cc.Node)
     nodec1a: cc.Node = null;
 
     @property(cc.Node)
@@ -80,6 +71,9 @@ export default class GamingController extends cc.Component {
 
     @property(cc.Node)
     nodef2: cc.Node = null;
+
+    @property(cc.Node)
+    nodef3: cc.Node = null;
 
     @property(cc.Sprite)
     nodes1: cc.Sprite = null;
@@ -113,9 +107,6 @@ export default class GamingController extends cc.Component {
 
     @property(cc.Button)
     role: cc.Button = null;
-
-    @property(cc.Button)
-    conf: cc.Button = null;
 
     @property(cc.Button)
     nodeb1: cc.Button = null;
@@ -155,15 +146,23 @@ export default class GamingController extends cc.Component {
 
     stop: number = 0;
 
-    flag: number = 0;
-
-    count: number = 0;
-
     flag2: number = 0;
 
     life: number = 0;
 
     time: number = 0;
+
+    t1: number = 0;
+
+    t2: number = 0;
+
+    t3: number = 0;
+
+    flagt1: number = 0;
+
+    flagt2: number = 0;
+
+    flagt3: number = 0;
 
 
 
@@ -176,12 +175,11 @@ export default class GamingController extends cc.Component {
 
     start () {
         this.score = 0;
+        this.life = 5;
         this.stop = 0;
-        this.flag = 1;
-        this.count = 0;
-        this.flag2 = 0;
-        this.life = 3;
-        this.time = 20;
+        this.t1 = 0;
+        this.t2 = 0;
+        this.t3 = 0;
         this.tipsv.active = false;
         this.homev.active = false;
         this.rolev.active = false;
@@ -190,20 +188,19 @@ export default class GamingController extends cc.Component {
         this.nodea2.active = false;
         this.nodea3.active = false;
         this.nodea4.active = false;
-        this.nodec1a.active = false;
-        this.nodec2a.active = false;
-        this.nodec3a.active = false;
         this.nodet.active = false;
         this.nodet.scale = 0;
         this.nodef.active = false;
         this.nodef.scale = 0;
         this.nodef2.active = false;
         this.nodef2.scale = 0;
+        this.nodef3.active = false;
+        this.nodef3.scale = 0;
         this.randsprite(this.nodes1);
         this.randsprite(this.nodes2);
         this.randsprite(this.nodes3);
         this.randsprite(this.nodes4);
-        this.initstringtitle()
+        this.setconst();
         this.schedule(function(){if(this.stop == 0) this.time -= 1;},1);
     }
 
@@ -215,54 +212,51 @@ export default class GamingController extends cc.Component {
         this.move(this.node2,this.nodes2);
         this.move(this.node3,this.nodes3);
         this.move(this.node4,this.nodes4);
-        if(this.flag2 == 0){
-            this.nodec1.active = true;
-            this.nodec2.active = true;
-            this.nodec3.active = true;
-            this.nodec1a.active = false;
-            this.nodec2a.active = false;
-            this.nodec3a.active = false;
-        }
-        if(this.flag2 == 1){
-            this.nodec1.active = false;
-            this.nodec2.active = true;
-            this.nodec3.active = true;
+        if(this.flagt1 == 1){
             this.nodec1a.active = true;
-            this.nodec2a.active = false;
-            this.nodec3a.active = false;
         }
-        if(this.flag2 == 2){
-            this.nodec1.active = false;
-            this.nodec2.active = false;
-            this.nodec3.active = true;
-            this.nodec1a.active = true;
+        if(this.flagt2 == 1){
             this.nodec2a.active = true;
-            this.nodec3a.active = false;
+        }
+        if(this.flagt3 == 1){
+            this.nodec3a.active = true;
         }
         if(this.flag2 == 3){
-            this.nodec1.active = false;
-            this.nodec2.active = false;
-            this.nodec3.active = false;
-            this.nodec1a.active = true;
-            this.nodec2a.active = true;
-            this.nodec3a.active = true;
+            this.setconst();
         }
         if(this.time == 0){
             if(this.life > 1){
                 this.touchactionc(this.nodef2);
-                this.initstringtitle();
-                this.time = 20;
+                this.setconst();
                 this.life -= 1;
             }
             else{
-                this.falsev.active = true;
-                this.stop = 1;
-                this.result.string = "本次得分为:"+this.score;
-                this.setbuttonfalse();
+                this.setfalse();
             }
+        }
+        if(this.life < 1){
+            this.setfalse();
         }
 
 
+     }
+     setconst(){
+        this.flag2 = 0;
+        this.time = 20;
+        this.flagt1 = 0;
+        this.flagt2 = 0;
+        this.flagt3 = 0;
+        this.initstringtitle();
+        this.nodec1a.active = false;
+        this.nodec2a.active = false;
+        this.nodec3a.active = false;
+     }
+
+     setfalse(){
+        this.falsev.active = true;
+        this.stop = 1;
+        this.result.string = "本次得分为:"+this.score;
+        this.setbuttonfalse();
      }
 
      randsprite(sp:cc.Sprite){
@@ -275,16 +269,6 @@ export default class GamingController extends cc.Component {
 
      randomtitle(){
         let t = Math.ceil(Math.random()*4);
-        /*let t1 = new String();
-        switch(t){
-            case 1: t1 = '草莓';break;
-            case 2: t1 = '寿司';break;
-            case 3: t1 = '布丁';break;
-            case 4: t1 = '甜甜圈';break;
-            case 5: t1 = '披萨';break;
-            case 6: t1 = '棒冰';break;
-            case 7: t1 = '饼干';break;
-        }*/
         return t;
      }
 
@@ -314,22 +298,21 @@ export default class GamingController extends cc.Component {
      }
      
      initstringtitle(){
-         let t1 = this.randomtitle();
-         let t2 = this.randomtitle();
-         let t3 = this.randomtitle();
-         while(t1 == t2)
-             t2 = this.randomtitle();
-         while(t1 == t3 || t2 == t3)
-             t3 = this.randomtitle();
-         let tall = "老板来一碗螺蛳粉！\n(还差:"+dic[t1]+","+dic[t2]+","+dic[t3]+")";
-         this.flag = t1 + t2 + t3;
+         this.t1 = this.randomtitle();
+         this.t2 = this.randomtitle();
+         this.t3 = this.randomtitle();
+         while(this.t1 == this.t2)
+             this.t2 = this.randomtitle();
+         while(this.t1 == this.t3 || this.t2 == this.t3)
+             this.t3 = this.randomtitle();
+         let tall = "老板来一碗螺蛳粉！\n(还差:"+dic[this.t1]+","+dic[this.t2]+","+dic[this.t3]+")";
+         //this.flag = this.t1 + t2 + t3;
          this.title1.string = tall;
      }
 
      setbuttontrue(){
         this.home.interactable = true;
         this.tips.interactable = true;
-        this.conf.interactable = true;
         this.role.interactable = true;
         this.nodeb1.interactable = true;
         this.nodeb2.interactable = true;
@@ -340,7 +323,6 @@ export default class GamingController extends cc.Component {
      setbuttonfalse(){
         this.home.interactable = false;
         this.tips.interactable = false;
-        this.conf.interactable = false;
         this.role.interactable = false;
         this.nodeb1.interactable = false;
         this.nodeb2.interactable = false;
@@ -394,41 +376,39 @@ export default class GamingController extends cc.Component {
          this.stop = 0;
          cc.audioEngine.playEffect(this.butm, false);
      }
-
+     onbuttonfalseyes(){
+         cc.audioEngine.playEffect(this.butm, false);
+         this.gameover();
+     }
      onbutton1(){
-        this.touchactionS(this.node1,this.nodes1,this.nodea1,this.nodeas1);
         let t = this.nodes1.spriteFrame.name;
         let s = dic2[t];
-        this.count += s;
-        this.flag2 += 1;
+        this.spriteswitch(this.node1,this.nodes1,this.nodea1,this.nodeas1,s);
         cc.audioEngine.playEffect(this.butm, false);
 
      }
 
      onbutton2(){
-        this.touchactionS(this.node2,this.nodes2,this.nodea2,this.nodeas2);
+        
         let t = this.nodes2.spriteFrame.name;
         let s = dic2[t];
-        this.count += s;
-        this.flag2 += 1;
+        this.spriteswitch(this.node2,this.nodes2,this.nodea2,this.nodeas2,s);
         cc.audioEngine.playEffect(this.butm, false);
      }
 
      onbutton3(){
-        this.touchactionS(this.node3,this.nodes3,this.nodea3,this.nodeas3);
+        
         let t = this.nodes3.spriteFrame.name;
         let s = dic2[t];
-        this.count += s;
-        this.flag2 += 1;
+        this.spriteswitch(this.node3,this.nodes3,this.nodea3,this.nodeas3,s);
         cc.audioEngine.playEffect(this.butm, false);
      }
 
      onbutton4(){
-        this.touchactionS(this.node4,this.nodes4,this.nodea4,this.nodeas4);
+        
         let t = this.nodes4.spriteFrame.name;
         let s = dic2[t];
-        this.count += s;
-        this.flag2 += 1;
+        this.spriteswitch(this.node4,this.nodes4,this.nodea4,this.nodeas4,s);
         cc.audioEngine.playEffect(this.butm, false);
      }
 
@@ -454,41 +434,38 @@ export default class GamingController extends cc.Component {
          node.runAction(action);
          this.scheduleOnce(function(){
              node.active = false;
-             node.scale = 0;},1.2)
-     }
-     onbuttonconfirm(){
-        if(this.count == this.flag){
-            this.score += 5;
-            this.flag = 0;
-            this.count = 0;
-            this.flag2 = 0;
-            this.time = 20;
-            this.touchactionc(this.nodet);
-            this.initstringtitle();
-        }
-        else{
-            this.life -= 1;
-            this.flag = 0;
-            this.count = 0;
-            this.flag2 = 0;
-            this.time = 20;
-            if(this.life > 0)
-                this.touchactionc(this.nodef);
-            this.initstringtitle();
-        }
-        if(this.life < 1){
-            this.falsev.active = true;
-            this.result.string = "本次得分为:"+this.score;
-            this.setbuttonfalse();
-            this.stop = 1;
-        }
-        cc.audioEngine.playEffect(this.butm, false);
+             node.scale = 0;},0.8)
      }
 
-     onbuttonfalseyes(){
-         cc.audioEngine.playEffect(this.butm, false);
-         this.gameover();
+     spriteswitch(node:cc.Node,nodes:cc.Sprite,nodea:cc.Node,nodeas:cc.Sprite,s:number){
+        if(this.t1 == s || this.t2 == s || this.t3 == s){
+            if(this.t1 == s) this.flagt1 ++;
+            else if(this.t2 == s) this.flagt2 ++;
+            else if(this.t3 == s) this.flagt3 ++;
+            if(((this.flagt1==0)||(this.flagt1==1))&&((this.flagt2==0)||(this.flagt2==1))&&((this.flagt3==0)||(this.flagt3==1))){
+                this.touchactionS(node,nodes,nodea,nodeas);
+                this.touchactionc(this.nodet);
+                this.score += 2;
+                this.flag2 += 1;
+            }
+            else{
+                if(this.life > 1)
+                    this.touchactionc(this.nodef3);
+                this.life -= 1;
+                if(this.flagt1 > 1)
+                this.flagt1=1;
+                if(this.flagt2 > 1)
+                this.flagt2=1;
+                if(this.flagt3 > 1)
+                this.flagt3=1;
+            }
+        }
+       else{
+            this.touchactionc(this.nodef);
+            this.life -= 1;
+        }
      }
+     
 
      gameover() {
          cc.director.loadScene("gameover");

@@ -255,18 +255,18 @@
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1558793368000,
+    "asset": 1558803398389,
     "meta": 1558792491904,
     "relativePath": "Texture"
   },
   "45b4c936-2c34-470e-b93e-773053d08250": {
-    "asset": 1558805667815,
-    "meta": 1558805667848,
+    "asset": 1558872220245,
+    "meta": 1558872220269,
     "relativePath": "Scene/gaming.fire"
   },
   "b7dcbf1e-8b7c-446f-b165-5166abbdb0e1": {
-    "asset": 1558793408463,
-    "meta": 1558793408479,
+    "asset": 1558872806313,
+    "meta": 1558872806327,
     "relativePath": "Scene/Main.fire"
   },
   "7bbb347a-fd8c-4212-8ff2-036c8d0bf473": {
@@ -285,12 +285,12 @@
     "relativePath": "Script/gamemain"
   },
   "25036189-6603-4c17-a3c9-454ce44ed824": {
-    "asset": 1558806187093,
-    "meta": 1558806187112,
+    "asset": 1558872773622,
+    "meta": 1558872773642,
     "relativePath": "Scene/gameover.fire"
   },
   "90c6aace-cbf7-4c62-b51a-bdf3d68c18f1": {
-    "asset": 1558792591000,
+    "asset": 1558803398389,
     "meta": 1555900738000,
     "relativePath": "Texture/background"
   },
@@ -344,11 +344,6 @@
     "meta": 1558702182648,
     "relativePath": "Texture/background/check-circle (1).png"
   },
-  "3ff1b04a-2ab1-4f63-baa7-67059983e7f5": {
-    "asset": 1558702182603,
-    "meta": 1558702182654,
-    "relativePath": "Texture/background/check-circle.png"
-  },
   "3b0c4cfb-59b1-4470-af57-1e435e145141": {
     "asset": 1558707832898,
     "meta": 1558707832983,
@@ -389,16 +384,6 @@
     "meta": 1558758278745,
     "relativePath": "Texture/music"
   },
-  "ca0d615c-35d6-48cb-bc4c-b0af510a2a42": {
-    "asset": 1558759871625,
-    "meta": 1558759877473,
-    "relativePath": "Script/gamed/gameovercontroller.ts"
-  },
-  "2c387008-9e9c-4111-b2b1-460789de6801": {
-    "asset": 1558759827835,
-    "meta": 1558759877561,
-    "relativePath": "Script/gamemain/maincontroller.ts"
-  },
   "a9221556-2af4-4405-855e-04b6de82e800": {
     "asset": 1558777832778,
     "meta": 1558777832973,
@@ -433,11 +418,6 @@
     "asset": 1558777832785,
     "meta": 1558777833110,
     "relativePath": "Texture/background/配方.png"
-  },
-  "a5ef9c74-0b06-4ef0-95f3-61e336bef9db": {
-    "asset": 1558777832779,
-    "meta": 1558777833143,
-    "relativePath": "Texture/background/做好.png"
   },
   "75d68dcb-2392-4606-a9c5-301e1e9f96ff": {
     "asset": 1558777832785,
@@ -484,9 +464,24 @@
     "meta": 1558803395911,
     "relativePath": "Texture/background/失败2.jpg"
   },
+  "89515d40-b0b6-4e94-b304-c939fb719d87": {
+    "asset": 1558869616814,
+    "meta": 1558869616850,
+    "relativePath": "Texture/background/失败3.jpg"
+  },
+  "ca0d615c-35d6-48cb-bc4c-b0af510a2a42": {
+    "asset": 1558872415038,
+    "meta": 1558872423215,
+    "relativePath": "Script/gamed/gameovercontroller.ts"
+  },
+  "2c387008-9e9c-4111-b2b1-460789de6801": {
+    "asset": 1558872768351,
+    "meta": 1558872769093,
+    "relativePath": "Script/gamemain/maincontroller.ts"
+  },
   "6092e848-c677-4006-9410-3c282c643842": {
-    "asset": 1558806138772,
-    "meta": 1558806146175,
+    "asset": 1558873515277,
+    "meta": 1558873516459,
     "relativePath": "Script/gaming/gamingcontroller.ts"
   }
 }

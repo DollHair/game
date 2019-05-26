@@ -16,6 +16,12 @@ export default class GameoverController extends cc.Component {
     @property(cc.Node)
     viewrs: cc.Node = null;
 
+    @property(cc.Button)
+    bts: cc.Button = null;
+
+    @property(cc.Button)
+    btr: cc.Button = null;
+
     @property(cc.AudioClip)
     butm: cc.AudioClip = null;
 
@@ -38,11 +44,23 @@ export default class GameoverController extends cc.Component {
     on_viewr_buttonclick(){
         cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = true;
+        this.setbuttonfalse();
     }
 
     on_back_buttonclick(){
         cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = false;
+        this.setbuttontrue();
+    }
+
+    setbuttonfalse(){
+        this.bts.interactable = false;
+        this.btr.interactable = false;
+    }
+
+    setbuttontrue(){
+        this.bts.interactable = true;
+        this.btr.interactable = true;
     }
 
     // update (dt) {}

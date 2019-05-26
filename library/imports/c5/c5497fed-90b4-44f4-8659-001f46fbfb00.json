@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "做好",
-    "texture": "a5ef9c74-0b06-4ef0-95f3-61e336bef9db",
+    "name": "失败3",
+    "texture": "89515d40-b0b6-4e94-b304-c939fb719d87",
     "atlas": "",
     "rect": [
-      12,
-      73,
-      179,
-      57
+      0,
+      0,
+      300,
+      300
     ],
     "offset": [
-      1.5,
-      -1.5
+      0,
+      0
     ],
     "originalSize": [
-      200,
-      200
+      300,
+      300
     ],
     "capInsets": [
       0,

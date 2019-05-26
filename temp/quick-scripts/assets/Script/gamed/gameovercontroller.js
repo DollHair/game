@@ -18,6 +18,8 @@ var GameoverController = /** @class */ (function (_super) {
     function GameoverController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.viewrs = null;
+        _this.bts = null;
+        _this.btr = null;
         _this.butm = null;
         return _this;
         // update (dt) {}
@@ -35,14 +37,30 @@ var GameoverController = /** @class */ (function (_super) {
     GameoverController.prototype.on_viewr_buttonclick = function () {
         cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = true;
+        this.setbuttonfalse();
     };
     GameoverController.prototype.on_back_buttonclick = function () {
         cc.audioEngine.playEffect(this.butm, false);
         this.viewrs.active = false;
+        this.setbuttontrue();
+    };
+    GameoverController.prototype.setbuttonfalse = function () {
+        this.bts.interactable = false;
+        this.btr.interactable = false;
+    };
+    GameoverController.prototype.setbuttontrue = function () {
+        this.bts.interactable = true;
+        this.btr.interactable = true;
     };
     __decorate([
         property(cc.Node)
     ], GameoverController.prototype, "viewrs", void 0);
+    __decorate([
+        property(cc.Button)
+    ], GameoverController.prototype, "bts", void 0);
+    __decorate([
+        property(cc.Button)
+    ], GameoverController.prototype, "btr", void 0);
     __decorate([
         property(cc.AudioClip)
     ], GameoverController.prototype, "butm", void 0);
